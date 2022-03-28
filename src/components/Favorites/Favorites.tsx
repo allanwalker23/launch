@@ -22,7 +22,7 @@ interface LaunchProps {
   releases: Launch[];
   loaded: boolean;
 }
-const ListOfLaunch: React.FC<LaunchProps> = ({
+const Favorites: React.FC<LaunchProps> = ({
   releases,
   loaded,
 }: LaunchProps) => {
@@ -33,8 +33,8 @@ const ListOfLaunch: React.FC<LaunchProps> = ({
           <img src={item.links.mission_patch} alt={item.mission_name} />
         </div>
         <div className="product-list-detail">
-          <h5 className="mb-2">{item.mission_name}</h5>
-          <i className="pi pi-sun product-category-icon"></i>
+          <h3 className="mb-2">{item.mission_name}</h3>
+          <i className="pi pi-star product-category-icon"></i>
           <span className="product-category">{item.rocket.rocket_name}</span>
         </div>
       </div>
@@ -48,7 +48,7 @@ const ListOfLaunch: React.FC<LaunchProps> = ({
             <OrderList
               value={releases}
               itemTemplate={itemTemplate}
-              header="Lançamentos"
+              header="Favoritos"
             ></OrderList>
           </div>
         </div>
@@ -61,4 +61,4 @@ const ListOfLaunch: React.FC<LaunchProps> = ({
   );
 };
 
-export default ListOfLaunch;
+export default Favorites;
