@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>{{global.nameSegmentSelected}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button>
+      
+      </ion-back-button>
+     
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div *ngIf="showNull==true">
+    <div class="rowNull">
+      <div class="content">
+        <ion-icon class="icon-without" color="primary" name="storefront"></ion-icon> 
+        <h3>Sem restaurantes</h3>
+    </div>
+    
+ 
+  </div>
+  </div>
+
+<div *ngIf="showNull!=true">
+  <ion-list >
+    <ion-card class="item-restaurant" ion-item *ngFor="let restaurant of restaurants" >
+     <ion-item (click)="goRestaurant(restaurant)">
+
+       <ion-avatar class="icon-restaurant" slot="start">
+        <img *ngIf="restaurant.logo!=null" src="https://www.pappei.com.br/images/empresa/{{restaurant.logo}}">
+        <img *ngIf="restaurant.logo==null" src="assets/restaurant_disabled.png">
+        </ion-avatar>
+       <p slot="end" *ngIf="restaurant.estrela!=0" class="star-delivery">{{convertStars(restaurant.estrela)}}</p>
+       <p slot="end" *ngIf="restaurant.estrela==0" class="star-delivery-2">Novo</p>
+       <ion-icon slot="end" *ngIf="restaurant.estrela!=0" name="star" style="color: rgb(206, 192, 4); margin-left: 2px;" ></ion-icon>
+       <ion-label>
+        <p class="title-restaurant">{{restaurant.nome}}</p> 
+        
+        <p class="category-text">{{restaurant.category}} </p>
+       
+        <p class="distancia-text">{{restaurant.raio.raio}}</p>
+        <p class="time-delivery">{{restaurant.tempo_entrega}}min - {{(restaurant.tempo_entrega*2)}}min</p>
+        <p *ngIf="restaurant.fechado==true" class="closed">Fechado</p>
+        
+        
+        
+        </ion-label>
+
+      
+     </ion-item>
+    
+    
+    </ion-card>
+     
+
+   </ion-list>
+</div>
+
+
+</ion-content>

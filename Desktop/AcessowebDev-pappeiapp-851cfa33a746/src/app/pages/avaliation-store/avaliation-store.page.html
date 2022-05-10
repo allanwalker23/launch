@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button>
+      
+      </ion-back-button>
+     
+    </ion-buttons>
+    <ion-title>Avaliações</ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="item-restaurant" ion-item *ngFor="let a of avaliation">
+    <ion-item>
+
+      <ion-avatar class="icon-restaurant" slot="start">
+        <img src="assets/images/perfil.jpg">
+      </ion-avatar>
+      <p slot="end" class="star-delivery">{{a.avaliacao}}</p>
+      <ion-icon slot="end" name="star" style="color: rgb(206, 192, 4); margin-left: 2px;" ></ion-icon>
+      <ion-label>
+        <p class="title-restaurant">{{a.user.nome}}</p> 
+      
+       </ion-label> 
+
+     
+    </ion-item>
+   
+    <ion-card-content>
+      <p class="avaliation-restaurant" *ngIf="a.mensagem!=null">"{{a.mensagem}}"</p> 
+      <p class="avaliation-restaurant" *ngIf="a.mensagem==null">Sem mensagem</p> 
+      <p class="title-restaurant">({{a.store.nome}})</p> 
+     </ion-card-content>
+   
+   </ion-card>
+   
+    
+</ion-content>

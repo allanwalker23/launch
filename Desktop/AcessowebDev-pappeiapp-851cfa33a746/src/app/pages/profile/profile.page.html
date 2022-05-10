@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button>
+      
+      </ion-back-button>
+
+    </ion-buttons>
+    <ion-title>Meus dados</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-row class="ion-justify-content-center">
+    <ion-col size="4">
+      
+      <div>
+        
+              
+          <img *ngIf="foto==null" src="assets/user.png" class="profile-image">
+          <img *ngIf="foto!=null" src="https://www.pappei.com.br/images/cliente/{{foto}}" class="profile-image">
+          
+      </div>
+     
+    </ion-col>
+   
+  </ion-row>
+  <ion-row class="ion-justify-content-center">
+    <ion-col size="12">
+      <ion-title align="center" color="black">{{user.nome}}</ion-title>
+    </ion-col>
+  </ion-row>
+ 
+  <form [formGroup]="form">
+
+  <ion-item>
+    <ion-label position="stacked">Nome</ion-label>
+    <ion-input [(ngModel)]="user.nome" type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label  position="stacked">CPF</ion-label>
+    <ion-input [(ngModel)]="user.cpf" type="text"></ion-input>
+    
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Email</ion-label>
+    <ion-input [(ngModel)]="user.email" type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Telefone</ion-label>
+    <ion-input [(ngModel)]="user.telefone" type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Celular</ion-label>
+    <ion-input [(ngModel)]="user.whatsapp" type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Data De Nascimento(XX/XX/XXXX)</ion-label>
+    <ion-input  maxlength="10" [(ngModel)]="user.data_nascimento" type="text"></ion-input>
+  </ion-item>
+
+  </form>
+
+  
+
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="updateUser()" defaultHref="home">
+      <ion-icon style=" color:black"name="checkmark"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

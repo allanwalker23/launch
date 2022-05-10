@@ -1,0 +1,50 @@
+.info-card {
+  margin: 10px;
+  display: inline-block;
+  ion-label {
+    p {
+    }
+  }
+  .title {
+    font-weight: 800;
+    color: black;
+    font-size: 18px;
+  }
+  .card-number {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+  }
+
+  .date-card {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: inline;
+  }
+}
+
+.item-card {
+  width: calc(100% - 44px);
+  background: white;
+  margin: 10px 10px 10px 20px;
+  padding: 5px 16px 5px 16px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 12px 2px rgba(182, 155, 155, 0.16);
+
+  ion-item {
+    --inner-padding-end: 0 !important;
+  }
+}
+
+.rowNull {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-top: 50%;
+
+  .content {
+    display: column;
+  }
+}

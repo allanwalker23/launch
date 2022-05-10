@@ -1,0 +1,142 @@
+.info-payment{
+    h2{
+        margin: 10px;
+    }
+    h3{
+        margin: 10px;
+    }
+    h4{
+        margin: 10px;
+    }
+}
+.adress{
+  width: calc(100% - 48px);
+  background: white;
+  margin: 16px 26px 16px 20px;
+  padding: 5px 16px 5px 16px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.16);
+
+  ion-item {
+    --inner-padding-end: 0 !important; 
+  }
+
+  ion-input {
+    --inner-padding-end: 0 !important; 
+  }
+}
+
+.card{
+  width: calc(100% - 48px);
+  background: white;
+  margin: 16px 26px 16px 20px;
+  padding: 5px 16px 5px 16px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.16);
+
+  ion-item {
+    --inner-padding-end: 0 !important; 
+  }
+}
+
+.footer-confirm{
+  font-weight: 600;
+  
+}
+
+.items-list{
+  width: calc(100% - 20px);
+  background: rgb(228, 218, 218);
+  
+  
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.16);
+
+  ion-item {
+    --inner-padding-end: 0 !important; 
+  }
+}
+
+.price-item{
+  color:green;
+  font-weight: 600;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 26px 6px 20px;
+
+    h2 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000000;
+    }
+
+    .price{
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: grey;
+    }
+  
+  }
+
+  .taxas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 26px 6px 20px;
+
+    h2 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000000;
+    }
+
+    .price{
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: grey;
+    }
+  
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 26px 6px 20px;
+
+    h2 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: bold;
+      color: #000000;
+    }
+
+    .price{
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      color: black;
+    }
+  
+  }
+
+  .title-card{
+    font-weight: 800;
+    color: black  ;
+    font-size: 16px;
+}
+.card-number{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -15px;
+    font-size: 12px;
+}
+

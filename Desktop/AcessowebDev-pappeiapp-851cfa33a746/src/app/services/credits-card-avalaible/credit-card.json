@@ -1,0 +1,48 @@
+{
+    "CARD_TYPES_PAGSEGURO_AVALAIBLE":[
+    {
+        "name":"American Express",
+        "image":"https://cdn4.iconfinder.com/data/icons/payment-method/160/payment_method_american_express_card-512.png"
+    },
+    {
+        "name":"Aura",
+        "image":"https://seeklogo.com/images/A/aura-logo-3C65F54B9F-seeklogo.com.png"
+    },
+    {
+        "name":"Banese Card",
+        "image":"https://sistemaserveloja.com.br/Sistema/App_Content/img/icons_bandeiras/icon_banesecard.svg"
+    },
+    {
+        "name":"Brasil Card",
+        "image":"https://www.aciasgra.com.br/wp-content/uploads/2020/08/brasil-card.jpg"
+    },
+    {
+        "name":"Cabal",
+        "image":"https://seeklogo.com/images/C/cabal-logo-20221A55B5-seeklogo.com.png"
+    },
+    {
+        "name":"Diners",
+        "image":"https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072013/dci-logo-stacked.eps-converted.png?itok=Nv6-SD-A"
+    },
+    {
+        "name":"Elo",
+        "image":"https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052015/elo_0.png?itok=VDjAtea4"
+    },
+    {
+        "name":"Grand Card",
+        "image":"https://www.grandcard.com.br/grandcard/logo_novo.png"
+    },
+    {
+        "name":"MasterCard",
+        "image":"http://www.bh1.com.br/wp-content/uploads/2018/05/logomarca-mastercard.gif"
+    },
+    {
+        "name":"HiperCard",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Hipercard_logo.svg/1200px-Hipercard_logo.svg.png"
+    },
+    {
+        "name":"Visa",
+        "image":"https://imagens.canaltech.com.br/empresas/4214.400.jpg"
+    }
+    ]
+}

@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button (click)="handleHome()" defaultHref="feed">
+      
+      </ion-back-button>
+
+    </ion-buttons>
+    
+    <ion-title>Detalhes do pedido</ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content>
+  <ion-progress-bar color="success" type="indeterminate"></ion-progress-bar>
+
+  <p class="title-restaurant">{{nameRestaurant}}</p>
+
+  <ion-item *ngFor="let item of itens">
+  <ion-thumbnail slot="start">
+    <img src="https://www.pappei.com.br/images/empresa/produtos/{{item.imagem}}">
+  </ion-thumbnail>
+  <ion-label>{{item.nome}}</ion-label>
+  <ion-badge>{{item.quantidade}}</ion-badge>
+</ion-item>
+
+
+
+<div class="total ion-padding">
+  <h2>Total</h2>
+  <p class="second">R$ {{convertCurrency(totalOrder)}}</p>
+  
+</div>
+
+<div class="total ion-padding">
+<h2>Pediu</h2>
+<p class="second">{{data_pedido}}</p>
+</div>
+
+<div class="total ion-padding">
+  <h2>Previsão de chegada</h2>
+  <p class="second">{{hora_agendada}}</p>
+  </div>
+
+  <div class="total ion-padding">
+    <h2>Status</h2>
+
+     
+
+    <ion-chip *ngIf="statusOrder=='0'" slot="end" style="background-color:white;border:3px solid darkblue;">
+      <ion-label style="color: darkblue; font-weight: 600;">Processando</ion-label>
+      </ion-chip>
+
+      <ion-chip *ngIf="statusOrder=='1'" slot="end" style="background-color:white;border:3px solid darkgreen;">
+        <ion-label style="color: darkgreen; font-weight: 600;">Aceito</ion-label>
+        </ion-chip>
+
+        <ion-chip *ngIf="statusOrder=='2'" slot="end" style="background-color:white;border:3px solid brown;">
+          <ion-label style="color: brown; font-weight: 600;">Em entrega</ion-label>
+          </ion-chip>
+
+        <ion-chip *ngIf="statusOrder=='3'" slot="end" style="background-color:darkgreen;">
+            <ion-label style="color: white; font-weight: 600;">Entregue</ion-label>
+            </ion-chip>
+
+        <ion-chip *ngIf="statusOrder=='4'" slot="end" style="background-color:brown;">
+              <ion-label style="color: white; font-weight: 600;">Cancelado</ion-label>
+              </ion-chip>
+    
+    </div>
+
+    <div class="total ion-padding">
+      <h2>Atendimento</h2>
+      <p class="second">{{atendimento}}</p>
+      </div>
+
+</ion-content>
+
+<ion-footer *ngIf="statusOrder=='3'">
+  <ion-toolbar (click)="showBoxAvaliation()" color="primary">
+
+    <h4 align="center" class="footer-confirm">Avaliar Pedido</h4>
+   
+  </ion-toolbar>
+</ion-footer>
+

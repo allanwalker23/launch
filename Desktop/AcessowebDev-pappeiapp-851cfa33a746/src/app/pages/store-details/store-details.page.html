@@ -1,0 +1,129 @@
+<ion-header >
+  <ion-toolbar [class]="class">
+    <ion-buttons slot="start">
+      <ion-back-button (click)="goHome()" [color]="btnColor">
+      
+      </ion-back-button>
+     
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button (click)="goAvaliations()">
+        
+        <label style="font-weight: 600;" *ngIf="stars!=0" class="stars">{{convertStars(stars)}}</label>
+        <label style="font-weight: 600; color: rgb(4, 136, 136);" *ngIf="stars==0" class="stars">Novo!</label>
+        <ion-icon slot="end" *ngIf="stars!=0" name="star" style="color: rgb(206, 192, 4); margin-left: 2px;" ></ion-icon>
+      </ion-button>
+     
+    </ion-buttons>
+
+    <div class="{{class}}">
+    <ion-avatar style="margin: auto; margin-top: 20px;" >
+  
+        <img *ngIf="imageRestaurant!=null" src="https://www.pappei.com.br/images/empresa/{{imageRestaurant}}">
+        <img *ngIf="imageRestaurant==null" src="assets/restaurant_disabled.png">
+      
+    </ion-avatar>
+    <p align="center">
+      {{nomeRestaurant}}
+    </p>
+    <ion-text color="primary" >
+      
+      <p align="center">Buffet {{timeRestaurant}}min {{(timeRestaurant+15)}}min {{raioRestaurant}}</p>
+    </ion-text>
+    </div>
+    
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" [scrollEvents]="true" (ionScroll)="Scroll($event)">
+      
+
+      <div *ngIf="showNull==true">
+        <div class="rowNull">
+          <div class="content">
+            <ion-icon class="icon-without" color="primary" name="storefront"></ion-icon>
+            <h3>Sem produtos</h3>
+
+        </div>
+        
+      
+      </div>
+      </div>
+
+<div *ngIf="showNull!=true">
+  <div class="title ion-padding">
+    <h2>Promoções</h2>
+  </div>
+
+  <div class="promotions-slider ion-padding-start">
+   
+  </div>
+
+<div class="category-slider ion-padding-start">
+ <ion-slides [options]="option" pager="true" class="ion-margin-top">
+    
+  
+    <ion-slide  *ngFor="let product of products">
+      <ion-col (click)="goDetails(product,product.id)">
+        <h4 style="color: white; font-weight: 700;">{{ product.nome }}</h4>
+        <img *ngIf="product.imagem==null || product.imagem==''" src="assets/restaurant_disabled.png">
+        <img *ngIf="product.imagem!=null || product.imagem!=''" src="https://www.pappei.com.br/images/empresa/produtos/{{product.imagem}}" />
+      </ion-col>
+      </ion-slide>
+
+    
+  </ion-slides>
+</div>
+
+  <hr color="grey">
+
+  <div class="title ion-padding">
+    <h2>Produtos</h2>
+  </div>
+
+  <div class="restaurant-list">
+    <ion-list>
+      <ion-card class="item-restaurant" ion-item *ngFor="let product of products" >
+       <ion-item (click)="goDetails(product,product.id)">
+         
+        <ion-avatar slot="start">
+          <img *ngIf="product.imagem!=null || product.imagem!=''" src="https://www.pappei.com.br/images/empresa/produtos/{{product.imagem}}">
+           <img *ngIf="product.imagem==null || product.imagem==''" src="assets/restaurant_disabled.png">
+          
+        </ion-avatar>
+         <ion-label slot="end"><p class="price-item">R$ {{convertCurrency(product.valor_por)}}</p></ion-label>
+         
+         <ion-label >{{product.nome}}</ion-label>
+         
+         
+       </ion-item>
+     
+       <ion-card-content>
+
+        <ion-label >{{product.subtitulo}}</ion-label>
+       
+       </ion-card-content>
+     </ion-card>
+     </ion-list>
+
+     
+</div>
+
+</div>
+</ion-content>
+
+<ion-footer *ngIf="itemsInCart!=0" (click)="goCart()">
+  <ion-toolbar color="primary">
+    <ion-tab-bar color="primary">
+      <ion-tab-button tab="cart-details">
+        <ion-icon name="cart"></ion-icon>
+        <ion-label>Ver Carrinho</ion-label>
+        <ion-badge>{{itemsInCart}}</ion-badge>
+      </ion-tab-button>
+
+      
+    </ion-tab-bar>
+  </ion-toolbar>
+</ion-footer>

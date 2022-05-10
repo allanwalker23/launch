@@ -1,0 +1,90 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <ion-list id="inbox-list">
+          <div class="ion-activatable ripple-parent">    
+          <ion-grid *ngIf="isToken!=null">
+            <ion-row >
+              <ion-col size="4">
+                
+              </ion-col>
+  
+              <ion-col size="4">
+              <p align="center" class="image-component" *ngIf="foto==null"><img src="assets/user.png" class="image-account"></p>
+              <p align="center" class="image-component" *ngIf="foto!=null"><img src="https://www.pappei.com.br/images/cliente/{{foto}}" class="image-account"></p>
+            </ion-col>
+  
+            </ion-row>
+            <ion-row>
+              <ion-col size="12">
+              <ion-title align="center" color="black">{{nome}}</ion-title>
+            </ion-col>
+            </ion-row>
+          </ion-grid> 
+
+               
+          <ion-grid (click)="goLoginPage()" *ngIf="isToken==null">
+            <ion-row >
+              <ion-col size="4">
+                
+              </ion-col>
+  
+              <ion-col size="4">
+              <p align="center" class="image-component" *ngIf="foto==null"><img src="assets/add-user.png" class="image-account"></p>
+              <p align="center" class="image-component" *ngIf="foto!=null"><img src="https://www.pappei.com.br/images/cliente/{{foto}}" class="image-account"></p>
+            </ion-col>
+  
+            </ion-row>
+            <ion-row>
+              <ion-col size="12">
+                <ion-title align="center" color="black">Fazer Login</ion-title>
+            </ion-col>
+            </ion-row>
+          </ion-grid>
+          <ion-ripple-effect></ion-ripple-effect>
+        </div>
+    
+          
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
+            <ion-item *ngIf="isToken==null" disabled routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerDirection="forward" routerLinkActive="selected">
+              <ion-icon slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'" color="white"></ion-icon>
+              <ion-label>{{ p.title }}</ion-label>
+            </ion-item>
+
+            <ion-item *ngIf="isToken!=null" routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerDirection="forward" routerLinkActive="selected">
+              <ion-icon slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'" color="white"></ion-icon>
+              <ion-label>{{ p.title }}</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle auto-hide="false" (click)="logout()">
+            <ion-item lines="none" detail="false">
+              <ion-icon slot="start" name="exit" color="white"></ion-icon>
+              <ion-label>Sair</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+         
+        </ion-list>
+       
+        <hr>
+          
+
+        <ion-menu-toggle auto-hide="false" (click)="confirmDeleteAccount()" >
+          <ion-item *ngIf="isToken==null" disabled lines="none" detail="false">
+            <ion-icon slot="start" name="trash" color="white"></ion-icon>
+            <ion-label>Deletar Conta</ion-label>
+          </ion-item>
+        
+          <ion-item *ngIf="isToken!=null" lines="none" detail="false">
+            <ion-icon slot="start" name="trash" color="white"></ion-icon>
+            <ion-label>Deletar Conta</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+       
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

@@ -1,0 +1,57 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="transluced" >
+    <ion-buttons slot="start">
+      <ion-back-button>
+      
+      </ion-back-button>
+     
+    </ion-buttons>
+
+   
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="banner" *ngFor="let i of item">
+    <img src="https://www.pappei.com.br/images/empresa/produtos/{{i.imagem}}"/>
+  </div>
+  <hr color="grey">
+  <div class="title ion-padding" *ngFor="let i of item">
+    <h2>{{i.nome}}</h2>
+    <p class="price">R$ {{convertCurrency(i.valor_por)}}</p>
+  </div>
+  <div *ngFor="let i of item">
+    <p class="desc">{{i.subtitulo}}</p>
+  </div>
+
+  <div class="observation">
+    <ion-item lines="none" class="ion-no-padding">
+      
+      <ion-label position="floating">Quantidade</ion-label>
+      <p slot="end" class="range">{{valueRange}}</p>
+      <ion-range snaps="true" (ionChange)="setRange($event)" color="primary" min="1" max="10" pin="true" [value]="valueRange">
+      
+      <ion-icon (click)="removeItem()" name="remove-outline" size="small" slot="start"></ion-icon>
+      <ion-icon (click)="addItem()" name="add-outline" slot="end"></ion-icon>    
+    
+    </ion-range>
+    </ion-item>
+    
+  </div>
+
+  <div class="observation">
+    <ion-item lines="none" class="ion-no-padding">
+      <ion-label position="floating">Alguma Observação ?</ion-label>
+
+      <ion-icon slot="end" name="chatbubble-outline"></ion-icon>
+      <ion-textarea auto-coo [(ngModel)]="observation" placeholder="Ex: Ponto da carne, Temperos, Maionese á parte"></ion-textarea>
+        
+    </ion-item>
+  </div>
+      
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar (click)="addCart()" color="primary">
+    <h4 align="center" class="footer-confirm">Adicionar ao carrinho</h4>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Forma de Pagamento</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button>
+      
+      </ion-back-button>
+     
+    </ion-buttons>
+  </ion-toolbar>
+
+ 
+ 
+</ion-header>
+
+<ion-content>
+  <ion-radio-group [(ngModel)]="optionSelected">
+
+  <div class="title ion-padding">
+    <h2>Dinheiro</h2>
+    
+  </div>
+
+  <ion-item>
+
+    <img src="assets/images/cash.png" style="width: 70px;">
+    <ion-radio slot="end" value="money"></ion-radio>
+    <ion-label>
+     <p class="title-restaurant">Dinheiro</p> 
+    
+     </ion-label>
+
+   
+  </ion-item>
+
+  <div class="title ion-padding">
+    <h2>Cartão - Máquina</h2>
+    
+  </div>
+
+  <ion-item *ngFor="let card of cardsPayments">
+
+    <img src="https://www.pappei.com.br/images/cards/{{card.imagem}}" style="width: 70px;">
+    <ion-radio slot="end" value="{{card.id}}"></ion-radio>
+
+    <ion-label>
+     <p class="title-restaurant">{{card.nome}}</p> 
+     </ion-label>
+
+   
+  </ion-item>
+
+  
+
+  <div class="title ion-padding">
+    <h2>Pagamento Online</h2>
+    
+  </div>
+  <ion-item *ngFor="let c of cardsClient">
+
+    <img src="{{c.imagem}}" style="width: 70px;">
+    <ion-radio slot="end" value="c{{c.id}}"></ion-radio>
+
+    <ion-label>
+      <p class="title-restaurant">{{c.nome_portador}}</p>  
+     <p class="title-restaurant">{{c.bandeira}}</p> 
+    
+     </ion-label>
+
+   
+  </ion-item>
+</ion-radio-group>
+
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar (click)="selectOptionPayment()" color="primary" >
+    <h4 align="center" class="footer-confirm">Selecionar</h4>
+   
+  </ion-toolbar>
+</ion-footer>

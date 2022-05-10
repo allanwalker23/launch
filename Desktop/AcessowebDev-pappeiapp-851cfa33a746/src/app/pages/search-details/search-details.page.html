@@ -1,0 +1,156 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button>
+      
+      </ion-back-button>
+     
+    </ion-buttons>
+    <ion-title>Pesquisa</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="search">
+    <ion-item lines="none" class="ion-no-padding">
+      <ion-icon slot="start" name="search-outline"></ion-icon>
+      <ion-input debounce="500" (ionChange)="search($event)" 
+      placeholder="Item ou restaurante"></ion-input>
+            
+    </ion-item>
+  </div>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-list >
+          
+          <div class="restaurant-list">
+            <ion-list>
+              <div style="display: flex; justify-content: space-between">
+                <ion-chip *ngIf="filterByDeliveryFreeVisible" (click)="disableFilterFreeDelivery()">
+                
+                 <ion-label>Entrega Grátis</ion-label>
+     
+                 <ion-avatar>
+                   <img src="assets/delivery-man.png">
+                 </ion-avatar>
+   
+                 <ion-icon name="close-circle"></ion-icon>
+               </ion-chip>
+
+               <ion-chip *ngIf="!filterByDeliveryFreeVisible" (click)="filterByFreeDelivery()">
+                
+                <ion-label>Entrega Grátis</ion-label>
+    
+                <ion-avatar>
+                  <img src="assets/delivery-man.png">
+                </ion-avatar>
+  
+              </ion-chip>
+   
+               <ion-chip (click)="disableFilterByPrice()" *ngIf="filterByPriceVisible">
+                
+                 <ion-label>Mais barato</ion-label>
+     
+                 <ion-avatar>
+                   <img src="assets/profits.png">
+                 </ion-avatar>
+                 
+                 <ion-icon name="close-circle"></ion-icon>
+               </ion-chip>
+
+               <ion-chip (click)="filterByPrice()" *ngIf="!filterByPriceVisible">
+                
+                <ion-label>Mais barato</ion-label>
+    
+                <ion-avatar>
+                  <img src="assets/profits.png">
+                </ion-avatar>
+                
+               
+              </ion-chip>
+
+               
+             </div>
+
+            
+          
+
+             <ion-card class="item-restaurant" ion-item *ngFor="let restaurant of restaurants" >
+              <ion-item (click)="goRestaurant(restaurant)">
+       
+                <ion-avatar class="icon-restaurant" slot="start">
+                  <img *ngIf="restaurant.logo!=null" src="https://www.pappei.com.br/images/empresa/{{restaurant.logo}}">
+                  <img *ngIf="restaurant.logo==null" src="assets/restaurant_disabled.png">
+                 </ion-avatar>
+                <p slot="end" *ngIf="restaurant.estrela!=0" class="star-delivery">{{convertStars(restaurant.estrela)}}</p>
+                <p slot="end" *ngIf="restaurant.estrela==0" class="star-delivery-2">Novo!</p>
+                <ion-icon slot="end" *ngIf="restaurant.estrela!=0" name="star" style="color: rgb(206, 192, 4); margin-left: 2px;" ></ion-icon>
+                <ion-label>
+                 <p class="title-restaurant">{{restaurant.nome}}</p> 
+                 
+                 <p *ngIf="restaurant.fechado==true" class="closed">Fechado</p>
+                 
+                 
+                 
+                 </ion-label>
+       
+               
+              </ion-item>
+             
+             
+             </ion-card>
+
+             <ion-card class="item-restaurant" ion-item *ngFor="let product of products" >
+              <ion-item (click)="goDetails(product,product.id)">
+                
+               <ion-avatar slot="start">
+                 <img *ngIf="product.imagem!=null" src="https://www.pappei.com.br/images/empresa/produtos/{{product.imagem}}">
+          <img *ngIf="product.imagem==null" src="assets/restaurant_disabled.png">
+         
+               </ion-avatar>
+                <ion-label slot="end"><p class="price-item">R$ {{convertCurrency(product.valor_por)}}</p></ion-label>
+                
+                <ion-label >{{product.nome}}</ion-label>
+                
+                
+              </ion-item>
+            
+              <ion-card-content>
+       
+               <ion-label >{{product.subtitulo}}</ion-label>
+              
+              </ion-card-content>
+            </ion-card>
+           
+             </ion-list>
+        
+             
+        </div>
+        
+        </ion-list>
+
+        <!--SHOW THE SKELETON TEXT -->
+        <ion-list *ngIf="showSkeleton">
+          <ion-item *ngFor="let d of [].constructor(5)">
+            <ion-thumbnail>
+             <ion-skeleton-text animated></ion-skeleton-text>
+            </ion-thumbnail>
+            <ion-label>
+              <h4><ion-skeleton-text animated style="width: 60%;"></ion-skeleton-text></h4>
+              <ion-text>
+                <p><ion-skeleton-text animated style="width: 40%;"></ion-skeleton-text></p>
+              </ion-text>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+
+
+        <!-- NO ITEMS FOUND -->
+      
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

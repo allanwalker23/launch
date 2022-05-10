@@ -1,0 +1,28 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="title">
+    <h4>Adicione seu endereço</h4>
+    <p>Calma lá! informe seu endereço primeiro antes de Papar</p>
+  </div>   
+    <ion-input placeholder="Nome de referência" [(ngModel)]="nameAdress" class="adress-input"></ion-input>
+    <ion-input placeholder="CEP(Apenas números)" (focusout)="getData()" [(ngModel)]="cep" type="number" class="adress-input" maxlength="11"></ion-input>
+    <ion-input placeholder="Rua" [(ngModel)]="rua" class="adress-input"></ion-input>
+    <ion-input placeholder="Número" [(ngModel)]="numero" type="number" class="adress-input"></ion-input>
+    <ion-input placeholder="Complemento" [(ngModel)]="complemento" type="text" class="adress-input" maxlength="11"></ion-input>
+    <ion-input placeholder="Bairro" [(ngModel)]="bairro" type="text" class="adress-input" maxlength="10"></ion-input>
+    <ion-input placeholder="Cidade"  maxlength="10" [(ngModel)]="cidade" type="text" class="adress-input"></ion-input>
+    <ion-input placeholder="Estado"  maxlength="2" [(ngModel)]="estado" type="text" class="adress-input"></ion-input>
+  
+    
+
+  <div class="ion-margin-top">
+    <ion-button expand="block" (click)="createAdress()">CRIAR ENDEREÇO</ion-button>
+  </div>
+
+  <div class="ion-margin-top ion-text-center">
+    <a (click)="dismiss()">Fechar</a>
+  </div>
+</ion-content>

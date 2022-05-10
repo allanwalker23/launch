@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button>
+      
+      </ion-back-button>
+     
+    </ion-buttons>
+    <ion-title>Meus Cartões</ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div *ngIf="showNull==true">
+  <div class="rowNull">
+    <div class="content">
+      <ion-icon class="icon-without" color="primary" name="card"></ion-icon>
+      <h3>Adicione um cartão</h3>
+  </div>
+  
+
+</div>
+</div>
+  <div *ngIf="showNull==false">
+  <ion-card class="item-card" ion-item *ngFor="let card of cards" >
+  <ion-item>
+
+        <ion-avatar slot="start">
+          <img src="{{card.imagem}}">
+        </ion-avatar>
+    
+      <div class="info-card">
+        <ion-label>
+          <p class="title">{{card.nome_portador}}</p>
+          
+            <span class="card-number">{{card.numero}}</span> 
+            &nbsp;&nbsp;
+            <span class="date-card">{{card.vencimento_mes}}/{{card.vencimento_ano}}</span>
+        </ion-label>
+      </div>
+    
+      
+      <ion-icon slot="end" (click)="optionsCreditCard(card)" name="ellipsis-vertical-sharp"></ion-icon>    
+</ion-item>
+
+</ion-card>
+</div>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="goCreate()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

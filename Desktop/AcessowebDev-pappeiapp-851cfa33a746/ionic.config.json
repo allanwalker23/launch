@@ -1,0 +1,7 @@
+{
+  "name": "Pappei",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

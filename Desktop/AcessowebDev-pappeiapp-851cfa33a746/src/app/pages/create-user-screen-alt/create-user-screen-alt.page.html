@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Crie sua conta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="form">
+    <ion-item>
+      <ion-label position="floating">Nome Completo</ion-label>
+      <ion-input [(ngModel)]="obj.nome"  placeholder="Digite seu nome completo"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input [(ngModel)]="obj.email"  placeholder="Digite seu email" type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input [(ngModel)]="obj.senha"  placeholder="Digite sua senha" type="password"></ion-input>
+    </ion-item>
+
+  </div>
+  
+  <ion-button expand="block" (click)="register()">Criar conta</ion-button>
+  
+</ion-content>

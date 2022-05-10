@@ -1,0 +1,151 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button>
+      
+      </ion-back-button>
+     
+    </ion-buttons>
+
+    <ion-title style="align-items: center; align-self: center; text-align: center;">CARRINHO</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div>
+    
+      <ion-card ion-item class="items-list" *ngFor="let item of items">
+       <ion-item >
+         <ion-avatar slot="start">
+           <img src="https://www.pappei.com.br/images/empresa/produtos/{{item.image}}">
+           
+          </ion-avatar>
+         <p slot="end" class="price-item">R${{convertCurrency(item.totalItem)}}</p>
+         
+         <ion-label >{{item.name}}</ion-label>
+         <ion-badge>{{item.quantity}}</ion-badge>
+         <ion-icon (click)="removeItem(item)" slot="end" name="close-circle"></ion-icon>
+         
+       </ion-item>
+
+     </ion-card>
+
+     
+    
+</div>
+
+<hr color="grey">
+
+<div class="subtotal ion-padding">
+  <h2>SubTotal</h2>
+  <p class="price">R$ {{convertCurrency(subtotal)}}</p>
+</div>
+
+<div class="taxas ion-padding">
+  <h2>Taxa de entrega</h2>
+  <p class="price">R$ {{convertCurrency(taxa)}}</p>
+</div>
+
+
+<div class="total ion-padding">
+  <h2>Total</h2>
+  <p class="price">R$ {{convertCurrency(total)}}</p>
+</div>
+
+<hr color="grey">
+  
+
+
+  <ion-item lines="none" class="adress" (ionChange)="selectAdress($event)">
+    <ion-label position="stacked">Entregar em</ion-label>
+    <ion-icon slot="end" name="bicycle"></ion-icon>
+    <ion-avatar slot="start">
+      <img src="assets/images/map.png">
+      
+     </ion-avatar>
+      
+      <ion-select cancelText="Cancelar">
+        <ion-select-option *ngFor="let a of adress" value="{{a.id}}">{{a.nome}}</ion-select-option>
+      </ion-select>
+  </ion-item>
+
+  
+  <ion-item *ngIf="visible==null" lines="none" (click)="goMethodPayments()" class="adress">
+    <ion-label position="stacked">Forma de pagamento</ion-label>
+    <ion-icon slot="end" name="card"></ion-icon>
+      <p style="color: grey;">Selecione uma forma de pagamento</p>
+  </ion-item>
+
+  <ion-item *ngIf="visible==1" lines="none" (click)="goMethodPayments()" class="adress">
+    <ion-label position="stacked">Forma de pagamento</ion-label>
+    <ion-icon slot="end" name="card"></ion-icon>
+    <ion-avatar slot="start">
+      <img src="assets/images/cash.png">
+      
+     </ion-avatar>
+        <p>Dinheiro</p>
+      
+  </ion-item>
+
+  <ion-item *ngIf="visible==1" lines="none" (click)="showNeedTroco()" class="adress">
+    <ion-label position="stacked">Precisa de troco?</ion-label>
+    <ion-avatar slot="start">
+      <img src="assets/images/troco.png">
+      
+     </ion-avatar>
+    <ion-icon slot="end" name="cash"></ion-icon>
+      <p style="color: grey;">{{valorLayout}}</p>
+  </ion-item>
+
+  <ion-item *ngIf="visible==1" lines="none"  class="adress">
+    <ion-label position="stacked">Precisa de troco?</ion-label>
+    <ion-avatar slot="start">
+      <img src="assets/images/troco.png">
+      
+     </ion-avatar>
+     <ion-icon slot="end" name="cash"></ion-icon>
+    <ion-input mask="00/00" placeholder="00,00R$"></ion-input>
+  </ion-item>
+
+
+
+  
+
+  <ion-item *ngIf="visible==2" lines="none" (click)="goMethodPayments()" class="adress">
+    <ion-label position="stacked">Forma de pagamento</ion-label>
+    <ion-icon slot="end" name="card"></ion-icon>
+    <ion-avatar slot="start">
+      <img src="https://www.pappei.com.br/images/cards/{{optionPayment.imagem}}">
+      
+     </ion-avatar>
+        <p>{{optionPayment.nome}}</p>
+      
+  </ion-item>
+
+  <ion-item *ngIf="visible==3" lines="none" (click)="goMethodPayments()" class="adress">
+    <ion-label position="stacked">Forma de pagamento</ion-label>
+    <ion-icon slot="end" name="card"></ion-icon>
+    <ion-avatar slot="start">
+      <img src="{{optionPayment[0].imagem}}">
+      
+     </ion-avatar>
+        <p class="title-card">{{optionPayment[0].nome_portador}}</p>
+        <p class="card-number">{{optionPayment[0].numero}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          {{optionPayment[0].vencimento_mes}}/{{optionPayment[0].vencimento_ano}}
+        </p>
+        
+        
+      
+  </ion-item>
+  
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar (click)="addOrder()" color="primary" >
+    <h4 align="center" class="footer-confirm">Finalizar pedido</h4>
+   
+  </ion-toolbar>
+</ion-footer>
+

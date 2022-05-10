@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Bandeiras Disponíveis</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-radio-group [(ngModel)]="bandeiraSelected">
+
+  <ion-item *ngFor="let card of cards">
+
+  <img src="{{card.image}}" style="width: 50px;">
+  <ion-radio slot="end" value="{{card.name}},{{card.image}}"></ion-radio>
+
+  <ion-label>
+   <p class="title-restaurant">{{card.name}}</p> 
+   </ion-label>
+
+ 
+</ion-item>
+</ion-radio-group>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar (click)="selectCreditCard()" color="primary" >
+    <h4 align="center" class="footer-confirm">Selecionar</h4>
+   
+  </ion-toolbar>
+</ion-footer>

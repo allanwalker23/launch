@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Faça seu login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="form">
+
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input [(ngModel)]="creds.email" placeholder="Digite seu email" type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input [(ngModel)]="creds.senha" placeholder="Digite sua senha" type="password"></ion-input>
+    </ion-item>
+
+      <div class="create-account" (click)="createAccount()">
+        <ion-label></ion-label>
+         <ion-label color="primary">Não tem conta?</ion-label>
+      </div>
+
+      <div class="forgot-password" (click)="forgot_password()">
+        <ion-label></ion-label>
+         <ion-label color="primary">Esqueci a senha</ion-label>
+      </div>
+
+  </div>
+  
+  <ion-button expand="block" (click)="login()">Login</ion-button>
+  
+</ion-content>

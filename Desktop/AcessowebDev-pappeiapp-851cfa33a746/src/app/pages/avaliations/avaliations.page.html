@@ -1,0 +1,33 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="title">
+    <h4>Rapha burguer</h4>
+    <p>Escolha uma estrela para demonstrar sua satisfação</p>
+  </div>
+
+  <div style="text-align:center">
+    <ion-icon name="star" style="zoom:2.0" color="warning" (click)="clickStar(1)"></ion-icon>
+    <ion-icon name="star" style="zoom:2.0" color="warning" (click)="clickStar(2)"></ion-icon>
+    <ion-icon name="star" style="zoom:2.0" color="warning" (click)="clickStar(3)"></ion-icon>
+    <ion-icon name="star" style="zoom:2.0" color="warning" (click)="clickStar(4)"></ion-icon>
+    <ion-icon name="star" style="zoom:2.0" color="warning" (click)="clickStar(5)"></ion-icon>
+    <ion-badge>{{stars}}</ion-badge>
+  </div>
+
+  <ion-item>
+    <ion-label position="floating">Comente sobre seu pedido(opcional)</ion-label>
+    <ion-textarea [(ngModel)]="mensagem"></ion-textarea>
+  </ion-item>
+  
+  <div class="ion-margin-top">
+    <ion-button expand="block" (click)="saveAvaliation()">Enviar avaliação</ion-button>
+  </div>
+
+  <div class="ion-margin-top ion-text-center">
+    <a (click)="dismiss()">Fechar</a>
+  </div>
+</ion-content>
+   

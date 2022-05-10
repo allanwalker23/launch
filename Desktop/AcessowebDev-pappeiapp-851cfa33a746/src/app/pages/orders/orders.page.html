@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Seus pedidos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="showNull==true">
+    <div class="rowNull">
+      <div class="content">
+      <ion-icon class="icon-without" color="primary" name="cart"></ion-icon>
+      <h3>Sem pedidos</h3>
+    </div>
+    
+ 
+  </div>
+  </div>
+
+<div *ngIf="showNull!=true">
+  <ion-card class="item-restaurant" ion-item *ngFor="let order of orders" >
+    <ion-item (click)="goDetails(order)">
+
+      <ion-avatar class="icon-restaurant" slot="start">
+        <img src="https://www.pappei.com.br/images/empresa/{{order.empresa.logo}}">
+      </ion-avatar>
+      
+      <ion-chip *ngIf="order.status=='0'" slot="end" style="background-color:white;border:3px solid darkblue;">
+      <ion-label style="color: darkblue; font-weight: 600;">Processando</ion-label>
+      </ion-chip>
+
+      <ion-chip *ngIf="order.status=='1'" slot="end" style="background-color:white;border:3px solid darkgreen;">
+        <ion-label style="color: darkgreen; font-weight: 600;">Aceito</ion-label>
+        </ion-chip>
+
+        <ion-chip *ngIf="order.status=='2'" slot="end" style="background-color:white;border:3px solid brown;">
+          <ion-label style="color: brown; font-weight: 600;">Em entrega</ion-label>
+          </ion-chip>
+
+        <ion-chip *ngIf="order.status=='3'" slot="end" style="background-color:darkgreen;">
+            <ion-label style="color: white; font-weight: 600;">Entregue</ion-label>
+            </ion-chip>
+
+        <ion-chip *ngIf="order.status=='4'" slot="end" style="background-color:brown;">
+              <ion-label style="color: white; font-weight: 600;">Cancelado</ion-label>
+              </ion-chip>
+  
+
+      <ion-label>
+       <p class="title-restaurant">{{order.empresa.nome}}</p> 
+       <p class="prevision-restaurant">Previsão:{{order.hora_agendada}}</p>
+       <p class="info-buy">Total: R${{order.valor}}</p>
+       
+       
+       
+       </ion-label>
+
+     
+    </ion-item>
+   
+   
+   </ion-card>
+
+  </div>   
+</ion-content>
+
+
