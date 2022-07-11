@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="449" height="168" viewBox="0 0 449 168">
+  <defs>
+    <clipPath id="clip-Spacing_inline02">
+      <rect width="449" height="168"/>
+    </clipPath>
+  </defs>
+  <g id="Spacing_inline02" data-name="Spacing inline02" clip-path="url(#clip-Spacing_inline02)">
+    <rect width="449" height="168" fill="#fff"/>
+    <g id="Retângulo_2" data-name="Retângulo 2" transform="translate(160.5 19) rotate(90)" fill="#f6dcff" stroke="#ba00ff" stroke-width="1">
+      <rect width="80" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="29" fill="none"/>
+    </g>
+    <g id="Retângulo_5" data-name="Retângulo 5" transform="translate(40.5 19) rotate(90)" fill="#f6dcff" stroke="#ba00ff" stroke-width="1">
+      <rect width="80" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="19" fill="none"/>
+    </g>
+    <g id="Retângulo_3" data-name="Retângulo 3" transform="translate(240 19)" fill="#f6dcff" stroke="#ba00ff" stroke-width="1">
+      <rect width="40" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="79" fill="none"/>
+    </g>
+    <g id="Retângulo_4" data-name="Retângulo 4" transform="translate(350 19)" fill="#f6dcff" stroke="#ba00ff" stroke-width="1">
+      <rect width="80" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
+    </g>
+    <text id="XS" transform="translate(20 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">XS</tspan></text>
+    <text id="MD" transform="translate(130 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">MD</tspan></text>
+    <text id="LG" transform="translate(240 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">LG</tspan></text>
+    <text id="XL" transform="translate(350 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">XL</tspan></text>
+  </g>
+</svg>

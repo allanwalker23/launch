@@ -1,0 +1,115 @@
+{
+  "version-2.13.0-docs": {
+    "1 Começando": [
+      "version-2.13.0-introducao",
+      "version-2.13.0-storybook"
+    ],
+    "2 Propriedades": [
+      {
+        "type": "subcategory",
+        "label": "2.1 Básicas",
+        "ids": [
+          "version-2.13.0-common-properties",
+          "version-2.13.0-border",
+          "version-2.13.0-color",
+          "version-2.13.0-flex",
+          "version-2.13.0-gradients",
+          "version-2.13.0-opacity",
+          "version-2.13.0-space",
+          "version-2.13.0-visibility"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.2 De Texto",
+        "ids": [
+          "version-2.13.0-colortext",
+          "version-2.13.0-fontsize",
+          "version-2.13.0-fontheight",
+          "version-2.13.0-fontweight",
+          "version-2.13.0-textAlign"
+        ]
+      }
+    ],
+    "3 Componentes simples": [
+      "version-2.13.0-window",
+      "version-2.13.0-group",
+      "version-2.13.0-view",
+      "version-2.13.0-grid",
+      "version-2.13.0-spacing"
+    ],
+    "4 Textos": [
+      "version-2.13.0-paragraph",
+      "version-2.13.0-header",
+      "version-2.13.0-subtitle",
+      "version-2.13.0-priceformat",
+      "version-2.13.0-bullet",
+      "version-2.13.0-bbcode",
+      "version-2.13.0-text"
+    ],
+    "5 Ilustrações": [
+      "version-2.13.0-banner",
+      "version-2.13.0-ilustration",
+      "version-2.13.0-animator",
+      "version-2.13.0-ameIcon",
+      "version-2.13.0-video"
+    ],
+    "6 Interações": [
+      "version-2.13.0-button",
+      "version-2.13.0-dropdownButton",
+      "version-2.13.0-segmentedControl",
+      "version-2.13.0-input",
+      "version-2.13.0-currencyInput",
+      "version-2.13.0-optin",
+      "version-2.13.0-datePicker",
+      "version-2.13.0-timePicker",
+      "version-2.13.0-checkItem",
+      "version-2.13.0-information",
+      "version-2.13.0-secureInput",
+      "version-2.13.0-pullToRefresh",
+      "version-2.13.0-map",
+      "version-2.13.0-ads",
+      "version-2.13.0-destination",
+      "version-2.13.0-accordion",
+      "version-2.13.0-bulletAnimation",
+      "version-2.13.0-modal",
+      "version-2.13.0-slider",
+      "version-2.13.0-textLink",
+      "version-2.13.0-hint",
+      "version-2.13.0-invoiceInput",
+      "version-2.13.0-toggle",
+      "version-2.13.0-loading",
+      "version-2.13.0-radio",
+      "version-2.13.0-touchable"
+    ],
+    "7 Organização": [
+      "version-2.13.0-divisor",
+      "version-2.13.0-skeleton",
+      "version-2.13.0-springLayout",
+      "version-2.13.0-carousel",
+      "version-2.13.0-scrollView",
+      "version-2.13.0-nav",
+      "version-2.13.0-block",
+      "version-2.13.0-steps",
+      "version-2.13.0-boxshadow"
+    ],
+    "8 Listas": [
+      "version-2.13.0-listView",
+      "version-2.13.0-infiniteScroll",
+      "version-2.13.0-detailList"
+    ],
+    "9 Cartões": [
+      "version-2.13.0-card",
+      "version-2.13.0-productCard",
+      "version-2.13.0-flatCard",
+      "version-2.13.0-circle",
+      "version-2.13.0-datasheet",
+      "version-2.13.0-image-flat-card",
+      "version-2.13.0-expandablecard",
+      "version-2.13.0-selectCard"
+    ],
+    "Notas da Versão": [
+      "version-2.13.0-release-notes"
+    ]
+  }
+}

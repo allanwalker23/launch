@@ -1,0 +1,241 @@
+---
+id: version-2.7.0-card
+title: Card
+sidebar_label: 9.1 Card
+original_id: card
+---
+
+Card é um componente que contêm um conteúdo e ações sobre um determinado assunto.
+
+## Exemplo
+
+![card](assets/images_components/v2.0.0/card.png)
+
+## Utilização
+
+```xml harmony
+<Card
+rightIcon='right-next'
+icon={require('../assets/images/icon_ame.svg')}
+title="Título do Card"
+truncate={2}
+disabled
+/>
+```
+
+### Title
+
+**String**
+
+Texto que será exibido no título do card.
+
+### TitleProps
+
+**Object**
+
+Propriedades de estilo do título, você atribui um objeto com o estilo que será utilizado dentro do título somente.
+
+Exemplo:
+
+```jsx harmony
+<Card
+  title="Um título"
+  titleProps={{ fontSize: 'md', color: 'neutralcolor-dark' }}
+/>
+```
+
+### Description
+
+**String**
+
+Texto que será exibido na descrição do card.
+
+### DescriptionProps
+
+**Object**
+
+Propriedades de estilo da descrição, você atribui um objeto com o estilo que será utilizado dentro da descrição somente.
+
+Exemplo:
+
+```jsx harmony
+<Card
+  title="Um título"
+  description="Uma descrição"
+  descriptionProps={{ fontSize: 'md', color: 'neutralcolor-dark' }}
+/>
+```
+
+### Subdescription
+
+**String**
+
+Texto que será exibido abaixo do descrição do card.
+
+### SubdescriptionProps
+
+**Object**
+
+Propriedades de estilo da subdescrição você atribui um objeto com o estilo que será utilizado dentro da subdescrição somente.
+
+Exemplo:
+
+```jsx harmony
+<Card
+  title="Um título"
+  description="Uma descrição"
+  descriptionProps={{ fontSize: 'md', color: 'neutralcolor-dark' }}
+  subdescription="10% de cashback"
+  descriptionProps={{ fontSize: 'md', color: 'neutralcolor-dark' }}
+  subdescriptionProps={{
+    fontSize: 'micro',
+    fontWeight: 'bold',
+    color: 'pluscolor-primary-dark'
+  }}
+/>
+```
+
+### Hint
+
+**String**
+
+Texto que será exibido na linha de detalhamento superior do card.
+
+### HintProps
+
+**Object**
+
+Propriedades de estilo do hint, você atribui um objeto com o estilo que será utilizado dentro do hint somente.
+
+Exemplo:
+
+```jsx harmony
+<Card
+  title="Um título"
+  hint="Um detalhe importante"
+  hintProps={{ fontSize: 'md', color: 'neutralcolor-dark' }}
+/>
+```
+
+### RightIcon
+
+**String**
+
+Ícone exibido a direita no Card.
+
+Recebe: Token do [ameIcon](ameIcon.md), endereço HTTPS da imagem do ícone ou endereço da imagem ícone local usando require.
+
+### RightIConColor
+
+**String**
+
+Cor do icone usado na propriedade [RightIcon](#RightIcon).
+
+Opções: 'black', 'red';
+
+Padrão: 'black'
+
+### LeftIcon
+
+**String**
+
+Ícone exibido a esquerda no Card.
+
+Recebe: Token do [ameIcon](ameIcon.md), endereço HTTPS da imagem do ícone ou endereço da imagem ícone local usando require.
+
+### LeftIconColor
+
+**String**
+
+Cor do icone usado na propriedade [LeftIcon](#LeftIcon).
+
+Opções: 'black', 'red';
+
+Padrão: 'black'
+
+### Image
+
+**String**
+
+Endereço HTTPS da imagem ou endereço da imagem local usando require.
+
+### OnClick
+
+**Function**
+
+Recebe uma função para ser executada em um evento de toque sobre o Card.
+
+### RightIconClick
+
+**Function**
+
+Recebe uma função para ser executada em um evento de toque sobre o ícone da direita no Card.
+
+### Disabled
+
+**Boolean**
+
+Bloqueia o usuário de interagir com o Card.
+
+### Truncate
+
+**Number**
+
+Com o truncate é possível selecionar a quantidade de linhas do texto desejada no `description`. Se o texto for de um tamanho que utilize linhas a mais, será cortado e acrescentado '...' ao final da linha. O valor deve ser passado em tipo number. Caso o `truncate` não seja atribuído, não haverá limitação de linha.
+
+## Propriedades Adicionais
+
+### Bordas
+
+- `border`
+- `borderRadius`
+- `borderColor`
+
+[Saiba mais sobre bordas](border.md)
+
+### Cores
+
+- `background`
+- `borderColor`
+
+[Saiba mais sobre cores](color.md)
+
+### Espaçamentos
+
+- `inset`
+- `squish`
+
+[Saiba mais sobre espaçamentos](space.md)
+
+### Opacidade
+
+- `semiopaque`
+- `intense`
+- `medium`
+- `light`
+- `transparent`
+
+[Saiba mais sobre opacidade](opacity.md)
+
+### visibilidade
+
+- `hidden`
+- `visible`
+
+[Saiba mais sobre visibilidade](visibility.md)
+
+## Outros exemplos
+
+![card](assets/images_components/v2.0.0/card2.png)
+
+O Card acima foi representado pelo código abaixo
+
+```jsx harmony
+<Window>
+  <Card
+    image={require('../assets/images/logo_phone.png')}
+    title={'Título do Card'}
+    description={'Informação complementar do card'}
+  />
+</Window>
+```

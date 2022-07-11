@@ -1,0 +1,103 @@
+{
+  "version-1.4.5-docs": {
+    "Conceitos": [],
+    "Começando": [],
+    "Design": [],
+    "Components": [
+      "version-1.4.5-introducao",
+      "version-1.4.5-styleResolver",
+      "version-1.4.5-baseComponent",
+      {
+        "type": "subcategory",
+        "label": "Estruturais",
+        "ids": [
+          "version-1.4.5-window",
+          "version-1.4.5-view",
+          "version-1.4.5-scrollView",
+          "version-1.4.5-card",
+          "version-1.4.5-listView",
+          "version-1.4.5-infiniteScroll",
+          "version-1.4.5-skeleton",
+          "version-1.4.5-flexBox",
+          "version-1.4.5-separator"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Imagens",
+        "ids": [
+          "version-1.4.5-image",
+          "version-1.4.5-imageBackground"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Vídeo",
+        "ids": [
+          "version-1.4.5-video",
+          "version-1.4.5-youtubePlayer"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Lógicos",
+        "ids": [
+          "version-1.4.5-if",
+          "version-1.4.5-repeater"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Interativos",
+        "ids": [
+          "version-1.4.5-touchable",
+          "version-1.4.5-datePicker",
+          "version-1.4.5-timePicker",
+          "version-1.4.5-switch",
+          "version-1.4.5-warning",
+          "version-1.4.5-stepper",
+          "version-1.4.5-tabNavigator",
+          "version-1.4.5-activityIndicator",
+          "version-1.4.5-carousel",
+          "version-1.4.5-map",
+          "version-1.4.5-animator",
+          "version-1.4.5-slider"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Botões",
+        "ids": [
+          "version-1.4.5-button",
+          "version-1.4.5-textLink",
+          "version-1.4.5-dropdownButton"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Formulário",
+        "ids": [
+          "version-1.4.5-input",
+          "version-1.4.5-currencyInput"
+        ]
+      },
+      "version-1.4.5-text",
+      {
+        "type": "subcategory",
+        "label": "Text",
+        "ids": [
+          "version-1.4.5-text",
+          "version-1.4.5-title",
+          "version-1.4.5-priceformat"
+        ]
+      }
+    ],
+    "Super Components": [
+      "version-1.4.5-productCard",
+      "version-1.4.5-autoComplete"
+    ],
+    "Utilidades": [
+      "version-1.4.5-styleResolver"
+    ]
+  }
+}

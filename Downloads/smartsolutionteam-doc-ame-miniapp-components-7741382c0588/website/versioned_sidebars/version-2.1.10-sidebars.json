@@ -1,0 +1,108 @@
+{
+  "version-2.1.10-docs": {
+    "1 Começando": [
+      "version-2.1.10-introducao"
+    ],
+    "2 Propriedades": [
+      {
+        "type": "subcategory",
+        "label": "2.1 Básicas",
+        "ids": [
+          "version-2.1.10-common-properties",
+          "version-2.1.10-border",
+          "version-2.1.10-color",
+          "version-2.1.10-flex",
+          "version-2.1.10-gradients",
+          "version-2.1.10-opacity",
+          "version-2.1.10-space",
+          "version-2.1.10-visibility"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.2 De Texto",
+        "ids": [
+          "version-2.1.10-colortext",
+          "version-2.1.10-fontsize",
+          "version-2.1.10-fontheight",
+          "version-2.1.10-fontweight",
+          "version-2.1.10-textAlign"
+        ]
+      }
+    ],
+    "3 Componentes simples": [
+      "version-2.1.10-window",
+      "version-2.1.10-group",
+      "version-2.1.10-view",
+      "version-2.1.10-grid",
+      "version-2.1.10-spacing"
+    ],
+    "4 Textos": [
+      "version-2.1.10-paragraph",
+      "version-2.1.10-header",
+      "version-2.1.10-subtitle",
+      "version-2.1.10-priceformat",
+      "version-2.1.10-bullet"
+    ],
+    "5 Ilustrações": [
+      "version-2.1.10-banner",
+      "version-2.1.10-ilustration",
+      "version-2.1.10-animator",
+      "version-2.1.10-ameIcon",
+      "version-2.1.10-video",
+      "version-2.1.10-youtubePlayer"
+    ],
+    "6 Interações": [
+      "version-2.1.10-button",
+      "version-2.1.10-dropdownButton",
+      "version-2.1.10-segmentedControl",
+      "version-2.1.10-input",
+      "version-2.1.10-currencyInput",
+      "version-2.1.10-optin",
+      "version-2.1.10-datePicker",
+      "version-2.1.10-timePicker",
+      "version-2.1.10-checkItem",
+      "version-2.1.10-information",
+      "version-2.1.10-secureInput",
+      "version-2.1.10-pullToRefresh",
+      "version-2.1.10-map",
+      "version-2.1.10-ads",
+      "version-2.1.10-destination",
+      "version-2.1.10-accordion",
+      "version-2.1.10-bulletAnimation",
+      "version-2.1.10-modal",
+      "version-2.1.10-slider",
+      "version-2.1.10-textLink",
+      "version-2.1.10-hint",
+      "version-2.1.10-invoiceInput",
+      "version-2.1.10-toggle"
+    ],
+    "7 Organização": [
+      "version-2.1.10-divisor",
+      "version-2.1.10-skeleton",
+      "version-2.1.10-springLayout",
+      "version-2.1.10-carousel",
+      "version-2.1.10-scrollView",
+      "version-2.1.10-nav",
+      "version-2.1.10-block",
+      "version-2.1.10-steps",
+      "version-2.1.10-boxshadow"
+
+    ],
+    "8 Listas": [
+      "version-2.1.10-listView",
+      "version-2.1.10-infiniteScroll"
+    ],
+    "9 Cartões": [
+      "version-2.1.10-card",
+      "version-2.1.10-productCard",
+      "version-2.1.10-flatCard",
+      "version-2.1.10-circle",
+      "version-2.1.10-datasheet",
+      "version-2.1.10-image-flat-card"
+    ],
+    "Notas da Versão": [
+      "version-2.1.10-release-notes"
+    ]
+  }
+}

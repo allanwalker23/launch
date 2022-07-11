@@ -1,0 +1,97 @@
+{
+  "version-2.1.4-docs": {
+    "1 Começando": [
+      "version-2.1.4-introducao"
+    ],
+    "2 Propriedades": [
+      {
+        "type": "subcategory",
+        "label": "2.1 Básicas",
+        "ids": [
+          "version-2.1.4-common-properties",
+          "version-2.1.4-border",
+          "version-2.1.4-color",
+          "version-2.1.4-flex",
+          "version-2.1.4-gradients",
+          "version-2.1.4-opacity",
+          "version-2.1.4-space",
+          "version-2.1.4-visibility"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.2 De Texto",
+        "ids": [
+          "version-2.1.4-colortext",
+          "version-2.1.4-fontsize",
+          "version-2.1.4-fontheight",
+          "version-2.1.4-fontweight",
+          "version-2.1.4-textAlign"
+        ]
+      }
+    ],
+    "3 Componentes simples": [
+      "version-2.1.4-window",
+      "version-2.1.4-group",
+      "version-2.1.4-view",
+      "version-2.1.4-grid",
+      "version-2.1.4-spacing"
+    ],
+    "4 Textos": [
+      "version-2.1.4-paragraph",
+      "version-2.1.4-header",
+      "version-2.1.4-subtitle",
+      "version-2.1.4-priceformat",
+      "version-2.1.4-bullet"
+    ],
+    "5 Ilustrações": [
+      "version-2.1.4-banner",
+      "version-2.1.4-ilustration",
+      "version-2.1.4-animator",
+      "version-2.1.4-ameIcon",
+      "version-2.1.4-video",
+      "version-2.1.4-youtubePlayer"
+    ],
+    "6 Interações": [
+      "version-2.1.4-button",
+      "version-2.1.4-dropdownButton",
+      "version-2.1.4-segmentedControl",
+      "version-2.1.4-input",
+      "version-2.1.4-currencyInput",
+      "version-2.1.4-optin",
+      "version-2.1.4-datePicker",
+      "version-2.1.4-timePicker",
+      "version-2.1.4-checkItem",
+      "version-2.1.4-information",
+      "version-2.1.4-secureInput",
+      "version-2.1.4-pullToRefresh",
+      "version-2.1.4-map",
+      "version-2.1.4-ads",
+      "version-2.1.4-toggle",
+      "version-2.1.4-textLink"
+    ],
+    "7 Organização": [
+      "version-2.1.4-divisor",
+      "version-2.1.4-skeleton",
+      "version-2.1.4-springLayout",
+      "version-2.1.4-carousel",
+      "version-2.1.4-scrollView",
+      "version-2.1.4-nav",
+      "version-2.1.4-block"
+    ],
+    "8 Listas": [
+      "version-2.1.4-listView",
+      "version-2.1.4-infiniteScroll"
+    ],
+    "9 Cartões": [
+      "version-2.1.4-card",
+      "version-2.1.4-productCard",
+      "version-2.1.4-flatCard",
+      "version-2.1.4-circle",
+      "version-2.1.4-datasheet"
+    ],
+    "Notas da Versão": [
+      "version-2.1.4-release-notes"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="559" height="168" viewBox="0 0 559 168">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff2d55"/>
+      <stop offset="0.283" stop-color="#ed0059"/>
+      <stop offset="1" stop-color="#170085"/>
+    </linearGradient>
+    <clipPath id="clip-Opacity_levels">
+      <rect width="559" height="168"/>
+    </clipPath>
+  </defs>
+  <g id="Opacity_levels" data-name="Opacity levels" clip-path="url(#clip-Opacity_levels)">
+    <rect width="559" height="168" fill="#fff"/>
+    <rect id="Retângulo_1" data-name="Retângulo 1" width="80" height="80" transform="translate(20 20)" fill="#fff"/>
+    <rect id="Retângulo_50" data-name="Retângulo 50" width="80" height="80" transform="translate(130 21)" fill="#fff"/>
+    <rect id="Retângulo_54" data-name="Retângulo 54" width="80" height="80" transform="translate(240 21)" fill="#fff"/>
+    <rect id="Retângulo_58" data-name="Retângulo 58" width="80" height="80" transform="translate(350 22)" fill="#fff"/>
+    <rect id="Retângulo_62" data-name="Retângulo 62" width="80" height="80" transform="translate(460 22)" fill="#fff"/>
+    <text id="Semiopaque" transform="translate(20 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Semiopaque</tspan></text>
+    <text id="Intense" transform="translate(130 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Intense</tspan></text>
+    <text id="Medium" transform="translate(240 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Medium</tspan></text>
+    <text id="Light" transform="translate(350 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Light</tspan></text>
+    <text id="Transparent" transform="translate(460 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Transparent</tspan></text>
+    <rect id="Retângulo_38" data-name="Retângulo 38" width="40" height="40" transform="translate(20 20)" fill="url(#linear-gradient)"/>
+    <rect id="Retângulo_51" data-name="Retângulo 51" width="40" height="40" transform="translate(130 21)" fill="url(#linear-gradient)"/>
+    <rect id="Retângulo_55" data-name="Retângulo 55" width="40" height="40" transform="translate(240 21)" fill="url(#linear-gradient)"/>
+    <rect id="Retângulo_59" data-name="Retângulo 59" width="40" height="40" transform="translate(350 22)" fill="url(#linear-gradient)"/>
+    <rect id="Retângulo_63" data-name="Retângulo 63" width="40" height="40" transform="translate(460 22)" fill="url(#linear-gradient)"/>
+    <rect id="Retângulo_49" data-name="Retângulo 49" width="40" height="40" transform="translate(60 60)" fill="#ff2d55"/>
+    <rect id="Retângulo_52" data-name="Retângulo 52" width="40" height="40" transform="translate(170 61)" fill="#ff2d55"/>
+    <rect id="Retângulo_56" data-name="Retângulo 56" width="40" height="40" transform="translate(280 61)" fill="#ff2d55"/>
+    <rect id="Retângulo_60" data-name="Retângulo 60" width="40" height="40" transform="translate(390 62)" fill="#ff2d55"/>
+    <rect id="Retângulo_64" data-name="Retângulo 64" width="40" height="40" transform="translate(500 62)" fill="#ff2d55"/>
+    <rect id="Retângulo_48" data-name="Retângulo 48" width="41" height="41" transform="translate(41 40)" fill="#313647" opacity="0.9"/>
+    <rect id="Retângulo_53" data-name="Retângulo 53" width="41" height="41" transform="translate(151 41)" fill="#313647" opacity="0.8"/>
+    <rect id="Retângulo_57" data-name="Retângulo 57" width="41" height="41" transform="translate(261 41)" fill="#313647" opacity="0.6"/>
+    <rect id="Retângulo_61" data-name="Retângulo 61" width="41" height="41" transform="translate(371 42)" fill="#313647" opacity="0.3"/>
+    <rect id="Retângulo_65" data-name="Retângulo 65" width="41" height="41" transform="translate(481 42)" fill="#313647" opacity="0.1"/>
+  </g>
+</svg>

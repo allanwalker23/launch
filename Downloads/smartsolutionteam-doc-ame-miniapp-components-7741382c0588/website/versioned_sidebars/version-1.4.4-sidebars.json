@@ -1,0 +1,103 @@
+{
+  "version-1.4.4-docs": {
+    "Conceitos": [],
+    "Começando": [],
+    "Design": [],
+    "Components": [
+      "version-1.4.4-introducao",
+      "version-1.4.4-styleResolver",
+      "version-1.4.4-baseComponent",
+      {
+        "type": "subcategory",
+        "label": "Estruturais",
+        "ids": [
+          "version-1.4.4-window",
+          "version-1.4.4-view",
+          "version-1.4.4-scrollView",
+          "version-1.4.4-card",
+          "version-1.4.4-listView",
+          "version-1.4.4-infiniteScroll",
+          "version-1.4.4-skeleton",
+          "version-1.4.4-flexBox",
+          "version-1.4.4-separator"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Imagens",
+        "ids": [
+          "version-1.4.4-image",
+          "version-1.4.4-imageBackground"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Vídeo",
+        "ids": [
+          "version-1.4.4-video",
+          "version-1.4.4-youtubePlayer"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Lógicos",
+        "ids": [
+          "version-1.4.4-if",
+          "version-1.4.4-repeater"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Interativos",
+        "ids": [
+          "version-1.4.4-touchable",
+          "version-1.4.4-datePicker",
+          "version-1.4.4-timePicker",
+          "version-1.4.4-switch",
+          "version-1.4.4-warning",
+          "version-1.4.4-stepper",
+          "version-1.4.4-tabNavigator",
+          "version-1.4.4-activityIndicator",
+          "version-1.4.4-map",
+          "version-1.4.4-animator",
+          "version-1.4.4-slider"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Botões",
+        "ids": [
+          "version-1.4.4-button",
+          "version-1.4.4-textLink",
+          "version-1.4.4-dropdownButton"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Formulário",
+        "ids": [
+          "version-1.4.4-input",
+          "version-1.4.4-currencyInput"
+        ]
+      },
+      "version-1.4.4-text",
+      {
+        "type": "subcategory",
+        "label": "Text",
+        "ids": [
+          "version-1.4.4-text",
+          "version-1.4.4-title",
+          "version-1.4.4-priceformat",
+          "version-1.4.4-textLink"
+        ]
+      }
+    ],
+    "Super Components": [
+      "version-1.4.4-productCard",
+      "version-1.4.4-autoComplete"
+    ],
+    "Utilidades": [
+      "version-1.4.4-styleResolver"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "version-1.6.1-docs": {
+    "Apresentação": [
+      "version-1.6.1-introducao",
+      "version-1.6.1-styleResolver"
+    ],
+    "Componentes": [
+      "version-1.6.1-baseComponent",
+      "version-1.6.1-window",
+      {
+        "type": "subcategory",
+        "label": "Estruturais",
+        "ids": [
+          "version-1.6.1-card",
+          "version-1.6.1-flexBox",
+          "version-1.6.1-view",
+          "version-1.6.1-scrollView",
+          "version-1.6.1-skeleton",
+          "version-1.6.1-separator"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Text",
+        "ids": [
+          "version-1.6.1-text",
+          "version-1.6.1-title",
+          "version-1.6.1-priceformat"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Botões",
+        "ids": [
+          "version-1.6.1-button",
+          "version-1.6.1-textLink",
+          "version-1.6.1-dropdownButton"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Formulário",
+        "ids": [
+          "version-1.6.1-input",
+          "version-1.6.1-currencyInput"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Listas",
+        "ids": [
+          "version-1.6.1-listView",
+          "version-1.6.1-infiniteScroll"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Imagens",
+        "ids": [
+          "version-1.6.1-image",
+          "version-1.6.1-imageBackground"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Vídeo",
+        "ids": [
+          "version-1.6.1-video",
+          "version-1.6.1-youtubePlayer"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Interativos",
+        "ids": [
+          "version-1.6.1-touchable",
+          "version-1.6.1-datePicker",
+          "version-1.6.1-timePicker",
+          "version-1.6.1-switch",
+          "version-1.6.1-warning",
+          "version-1.6.1-tabNavigator",
+          "version-1.6.1-carousel",
+          "version-1.6.1-map",
+          "version-1.6.1-animator",
+          "version-1.6.1-activityIndicator",
+          "version-1.6.1-stepper",
+          "version-1.6.1-slider"
+        ]
+      }
+    ],
+    "Notas da Versão": [
+      "version-1.6.1-release-notes"
+    ]
+  }
+}
