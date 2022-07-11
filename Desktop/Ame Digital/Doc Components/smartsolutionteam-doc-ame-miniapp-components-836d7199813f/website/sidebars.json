@@ -1,0 +1,94 @@
+{
+  "docs": {
+    "1 Começando": ["introducao","storybook"],
+    "2 Propriedades": [
+      {
+        "type": "subcategory",
+        "label": "2.1 Básicas",
+        "ids": [
+          "common-properties",
+          "border",
+          "color",
+          "flex",
+          "gradients",
+          "opacity",
+          "space",
+          "visibility"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.2 De Texto",
+        "ids": [
+          "colortext",
+          "fontsize",
+          "fontheight",
+          "fontweight",
+          "textalign"
+        ]
+      }
+    ],
+    "3 Componentes simples": ["window", "group", "view", "grid", "spacing"],
+    "4 Textos": ["paragraph", "header", "subtitle","priceformat" ,"bullet", "bbcode", "text"],
+    "5 Ilustrações": [
+      "banner",
+      "ilustration",
+      "animator",
+      "ameicon",
+      "video",
+      "image"
+    ],
+    "6 Interações": [
+      "button",
+      "dropdownbutton",
+      "segmentedcontrol",
+      "input",
+      "currencyinput",
+      "optin",
+      "datepicker",
+      "timepicker",
+      "checkitem",
+      "information",
+      "secureinput",
+      "pulltorefresh",
+      "map",
+      "ads",
+      "destination",
+      "accordion",
+      "bulletanimation",
+      "modal",
+      "slider",
+      "textlink",
+      "hint",
+      "invoiceinput",
+      "toggle",
+      "loading",
+      "radio",
+      "touchable"
+    ],
+    "7 Organização": [
+      "divisor",
+      "skeleton",
+      "springlayout",
+      "carousel",
+      "scrollview",
+      "nav",
+      "block",
+      "steps",
+      "boxshadow"
+    ],
+    "8 Listas": ["listview", "infinitescroll", "detaillist"],
+    "9 Cartões": [
+      "card",
+      "productcard",
+      "flatcard",
+      "circle",
+      "datasheet",
+      "imageflatcard",
+      "expandablecard",
+      "selectcard"
+    ],
+    "Notas da Versão": ["release-notes"],
+    "Desenvolvendo": ["wiki-estrutura", "wiki-comecando", "wiki-git-versionamento"]
+  }
+}

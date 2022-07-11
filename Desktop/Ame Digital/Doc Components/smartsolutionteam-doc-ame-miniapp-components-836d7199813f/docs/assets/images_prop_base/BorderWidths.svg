@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="168" viewBox="0 0 560 168">
+  <defs>
+    <clipPath id="clip-Border_widths">
+      <rect width="560" height="168"/>
+    </clipPath>
+  </defs>
+  <g id="Border_widths" data-name="Border widths" clip-path="url(#clip-Border_widths)">
+    <rect width="560" height="168" fill="#fff"/>
+    <rect id="Retângulo_32" data-name="Retângulo 32" width="80" height="80" transform="translate(20 20)" fill="#fff"/>
+    <g id="Retângulo_43" data-name="Retângulo 43" transform="translate(130 20)" fill="#fff" stroke="#313647" stroke-width="1">
+      <rect width="80" height="80" rx="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" rx="8.5" fill="none"/>
+    </g>
+    <g id="Retângulo_44" data-name="Retângulo 44" transform="translate(240 20)" fill="#fff" stroke="#313647" stroke-width="2">
+      <rect width="80" height="80" rx="9" stroke="none"/>
+      <rect x="1" y="1" width="78" height="78" rx="8" fill="none"/>
+    </g>
+    <g id="Retângulo_45" data-name="Retângulo 45" transform="translate(350 20)" fill="#fff" stroke="#313647" stroke-width="4">
+      <rect width="80" height="80" rx="9" stroke="none"/>
+      <rect x="2" y="2" width="76" height="76" rx="7" fill="none"/>
+    </g>
+    <g id="Retângulo_46" data-name="Retângulo 46" transform="translate(460 20)" fill="#fff" stroke="#313647" stroke-width="8">
+      <rect width="80" height="80" rx="9" stroke="none"/>
+      <rect x="4" y="4" width="72" height="72" rx="5" fill="none"/>
+    </g>
+    <path id="Retângulo_33" data-name="Retângulo 33" d="M7,0H20a0,0,0,0,1,0,0V20a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V7A7,7,0,0,1,7,0Z" transform="translate(20 20)" fill="#313647"/>
+    <path id="Retângulo_42" data-name="Retângulo 42" d="M7,0H20a0,0,0,0,1,0,0V20a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V7A7,7,0,0,1,7,0Z" transform="translate(100 100) rotate(180)" fill="#313647"/>
+    <rect id="Retângulo_35" data-name="Retângulo 35" width="20" height="20" transform="translate(60 20)" fill="#313647"/>
+    <rect id="Retângulo_36" data-name="Retângulo 36" width="20" height="20" transform="translate(40 40)" fill="#313647"/>
+    <rect id="Retângulo_37" data-name="Retângulo 37" width="20" height="20" transform="translate(80 40)" fill="#313647"/>
+    <rect id="Retângulo_38" data-name="Retângulo 38" width="20" height="20" transform="translate(20 60)" fill="#313647"/>
+    <rect id="Retângulo_39" data-name="Retângulo 39" width="20" height="20" transform="translate(60 60)" fill="#313647"/>
+    <rect id="Retângulo_41" data-name="Retângulo 41" width="20" height="20" transform="translate(40 80)" fill="#313647"/>
+    <text id="None" transform="translate(20 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">None</tspan></text>
+    <text id="Hairline" transform="translate(130 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Hairline</tspan></text>
+    <text id="Thin" transform="translate(240 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Thin</tspan></text>
+    <text id="Thick" transform="translate(350 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Thick</tspan></text>
+    <text id="Heavy" transform="translate(460 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Heavy</tspan></text>
+  </g>
+</svg>

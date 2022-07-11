@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="672" height="168" viewBox="0 0 672 168">
+  <defs>
+    <clipPath id="clip-Spacing_inset">
+      <rect width="672" height="168"/>
+    </clipPath>
+  </defs>
+  <g id="Spacing_inset" data-name="Spacing inset" clip-path="url(#clip-Spacing_inset)">
+    <rect width="672" height="168" fill="#fff"/>
+    <g id="Retângulo_1" data-name="Retângulo 1" transform="translate(20 20)" fill="#fff" stroke="#4ed12f" stroke-width="1">
+      <rect width="80" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
+    </g>
+    <g id="Retângulo_7" data-name="Retângulo 7" transform="translate(130 20)" fill="#fff" stroke="#4ed12f" stroke-width="1">
+      <rect width="80" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
+    </g>
+    <g id="Retângulo_12" data-name="Retângulo 12" transform="translate(240 20)" fill="#fff" stroke="#4ed12f" stroke-width="1">
+      <rect width="80" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
+    </g>
+    <g id="Retângulo_17" data-name="Retângulo 17" transform="translate(350 20)" fill="#fff" stroke="#4ed12f" stroke-width="1">
+      <rect width="80" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
+    </g>
+    <g id="Retângulo_22" data-name="Retângulo 22" transform="translate(460 20)" fill="#fff" stroke="#4ed12f" stroke-width="1">
+      <rect width="80" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
+    </g>
+    <g id="Retângulo_27" data-name="Retângulo 27" transform="translate(570 20)" fill="#fff" stroke="#4ed12f" stroke-width="1">
+      <rect width="80" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
+    </g>
+    <line id="Linha_2" data-name="Linha 2" x2="79" transform="translate(20.5 24.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_3" data-name="Linha 3" x2="79" transform="translate(20.5 95.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <rect id="Retângulo_3" data-name="Retângulo 3" width="80" height="5" transform="translate(20 20)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_4" data-name="Retângulo 4" width="80" height="5" transform="translate(20 95)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_5" data-name="Retângulo 5" width="80" height="5" transform="translate(100 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_11" data-name="Retângulo 11" width="80" height="10" transform="translate(210 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_16" data-name="Retângulo 16" width="80" height="15" transform="translate(320 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_18" data-name="Retângulo 18" width="80" height="20" transform="translate(430 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_23" data-name="Retângulo 23" width="80" height="25" transform="translate(540 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_28" data-name="Retângulo 28" width="80" height="40" transform="translate(650 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_6" data-name="Retângulo 6" width="80" height="5" transform="translate(26 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_9" data-name="Retângulo 9" width="80" height="10" transform="translate(140 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_13" data-name="Retângulo 13" width="80" height="15" transform="translate(255 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_21" data-name="Retângulo 21" width="80" height="20" transform="translate(370 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_26" data-name="Retângulo 26" width="80" height="25" transform="translate(485 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_31" data-name="Retângulo 31" width="80" height="40" transform="translate(610 20) rotate(90)" fill="#4ed12f" opacity="0.1"/>
+    <line id="Linha_4" data-name="Linha 4" y2="79" transform="translate(25.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_7" data-name="Linha 7" y2="79" transform="translate(139.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_11" data-name="Linha 11" y2="79" transform="translate(254.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_17" data-name="Linha 17" y2="79" transform="translate(369.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_21" data-name="Linha 21" y2="79" transform="translate(484.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_5" data-name="Linha 5" y2="79" transform="translate(95.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_9" data-name="Linha 9" y2="79" transform="translate(200.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_13" data-name="Linha 13" y2="79" transform="translate(305.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_16" data-name="Linha 16" y2="79" transform="translate(410.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_20" data-name="Linha 20" y2="79" transform="translate(515.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <rect id="Retângulo_8" data-name="Retângulo 8" width="80" height="10" transform="translate(130 20)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_14" data-name="Retângulo 14" width="80" height="15" transform="translate(240 20)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_19" data-name="Retângulo 19" width="80" height="20" transform="translate(350 20)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_24" data-name="Retângulo 24" width="80" height="25" transform="translate(460 20)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_29" data-name="Retângulo 29" width="80" height="40" transform="translate(570 20)" fill="#4ed12f" opacity="0.1"/>
+    <line id="Linha_6" data-name="Linha 6" x2="79" transform="translate(130.5 29.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_10" data-name="Linha 10" x2="79" transform="translate(240.5 34.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_14" data-name="Linha 14" x2="79" transform="translate(350.5 39.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_18" data-name="Linha 18" x2="79" transform="translate(460.5 44.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <rect id="Retângulo_10" data-name="Retângulo 10" width="80" height="10" transform="translate(130 90)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_15" data-name="Retângulo 15" width="80" height="15" transform="translate(240 85)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_20" data-name="Retângulo 20" width="80" height="20" transform="translate(350 80)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_25" data-name="Retângulo 25" width="80" height="25" transform="translate(460 75)" fill="#4ed12f" opacity="0.1"/>
+    <rect id="Retângulo_30" data-name="Retângulo 30" width="80" height="40" transform="translate(570 60)" fill="#4ed12f" opacity="0.1"/>
+    <line id="Linha_8" data-name="Linha 8" x2="79" transform="translate(130.5 90.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_12" data-name="Linha 12" x2="79" transform="translate(240.5 85.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_15" data-name="Linha 15" x2="79" transform="translate(350.5 80.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_19" data-name="Linha 19" x2="79" transform="translate(460.5 75.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_25" data-name="Linha 25" y2="79" transform="translate(609.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_24" data-name="Linha 24" y2="79" transform="translate(609.5 20.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_22" data-name="Linha 22" x2="79" transform="translate(570.5 60.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <line id="Linha_23" data-name="Linha 23" x2="79" transform="translate(570.5 60.5)" fill="none" stroke="#4ed12f" stroke-width="1"/>
+    <text id="Quarck" transform="translate(20 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Quarck</tspan></text>
+    <text id="Nano" transform="translate(130 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Nano</tspan></text>
+    <text id="XS" transform="translate(240 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">XS</tspan></text>
+    <text id="SM" transform="translate(350 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">SM</tspan></text>
+    <text id="MD" transform="translate(460 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">MD</tspan></text>
+    <text id="LG" transform="translate(570 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">LG</tspan></text>
+  </g>
+</svg>

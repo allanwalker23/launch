@@ -1,0 +1,95 @@
+{
+  "version-2.1.7-docs": {
+    "1 Começando": ["version-2.1.7-introducao"],
+    "2 Propriedades": [
+      {
+        "type": "subcategory",
+        "label": "2.1 Básicas",
+        "ids": [
+          "version-2.1.7-common-properties",
+          "version-2.1.7-border",
+          "version-2.1.7-color",
+          "version-2.1.7-flex",
+          "version-2.1.7-gradients",
+          "version-2.1.7-opacity",
+          "version-2.1.7-space",
+          "version-2.1.7-visibility"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.2 De Texto",
+        "ids": [
+          "version-2.1.7-colortext",
+          "version-2.1.7-fontsize",
+          "version-2.1.7-fontheight",
+          "version-2.1.7-fontweight",
+          "version-2.1.7-textAlign"
+        ]
+      }
+    ],
+    "3 Componentes simples": [
+      "version-2.1.7-window",
+      "version-2.1.7-group",
+      "version-2.1.7-view",
+      "version-2.1.7-grid",
+      "version-2.1.7-spacing"
+    ],
+    "4 Textos": [
+      "version-2.1.7-paragraph",
+      "version-2.1.7-header",
+      "version-2.1.7-subtitle",
+      "version-2.1.7-priceformat",
+      "version-2.1.7-bullet"
+    ],
+    "5 Ilustrações": [
+      "version-2.1.7-banner",
+      "version-2.1.7-ilustration",
+      "version-2.1.7-animator",
+      "version-2.1.7-ameIcon",
+      "version-2.1.7-video",
+      "version-2.1.7-youtubePlayer"
+    ],
+    "6 Interações": [
+      "version-2.1.7-button",
+      "version-2.1.7-dropdownButton",
+      "version-2.1.7-segmentedControl",
+      "version-2.1.7-input",
+      "version-2.1.7-currencyInput",
+      "version-2.1.7-optin",
+      "version-2.1.7-datePicker",
+      "version-2.1.7-timePicker",
+      "version-2.1.7-checkItem",
+      "version-2.1.7-information",
+      "version-2.1.7-secureInput",
+      "version-2.1.7-pullToRefresh",
+      "version-2.1.7-map",
+      "version-2.1.7-ads",
+      "version-2.1.7-destination",
+      "version-2.1.7-accordion",
+      "version-2.1.7-bulletAnimation",
+      "version-2.1.7-modal",
+      "version-2.1.7-textLink",
+      "version-2.1.7-toggle"
+    ],
+    "7 Organização": [
+      "version-2.1.7-divisor",
+      "version-2.1.7-skeleton",
+      "version-2.1.7-springLayout",
+      "version-2.1.7-carousel",
+      "version-2.1.7-scrollView",
+      "version-2.1.7-nav",
+      "version-2.1.7-block",
+      "version-2.1.7-steps"
+    ],
+    "8 Listas": ["version-2.1.7-listView", "version-2.1.7-infiniteScroll"],
+    "9 Cartões": [
+      "version-2.1.7-card",
+      "version-2.1.7-productCard",
+      "version-2.1.7-flatCard",
+      "version-2.1.7-circle",
+      "version-2.1.7-datasheet"
+    ],
+    "Notas da Versão": ["version-2.1.7-release-notes"]
+  }
+}

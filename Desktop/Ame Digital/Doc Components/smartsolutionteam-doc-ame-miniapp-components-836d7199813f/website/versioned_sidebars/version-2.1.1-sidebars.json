@@ -1,0 +1,95 @@
+{
+  "version-2.1.1-docs": {
+    "1 Começando": [
+      "version-2.1.1-introducao"
+    ],
+    "2 Propriedades": [
+      {
+        "type": "subcategory",
+        "label": "2.1 Básicas",
+        "ids": [
+          "version-2.1.1-common-properties",
+          "version-2.1.1-border",
+          "version-2.1.1-color",
+          "version-2.1.1-flex",
+          "version-2.1.1-gradients",
+          "version-2.1.1-opacity",
+          "version-2.1.1-space",
+          "version-2.1.1-visibility"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.2 De Texto",
+        "ids": [
+          "version-2.1.1-colortext",
+          "version-2.1.1-fontsize",
+          "version-2.1.1-fontheight",
+          "version-2.1.1-fontweight",
+          "version-2.1.1-textAlign"
+        ]
+      }
+    ],
+    "3 Componentes simples": [
+      "version-2.1.1-window",
+      "version-2.1.1-group",
+      "version-2.1.1-view",
+      "version-2.1.1-grid",
+      "version-2.1.1-spacing"
+    ],
+    "4 Textos": [
+      "version-2.1.1-paragraph",
+      "version-2.1.1-header",
+      "version-2.1.1-subtitle",
+      "version-2.1.1-priceformat",
+      "version-2.1.1-bullet",
+      "version-2.1.1-textLink"
+    ],
+    "5 Ilustrações": [
+      "version-2.1.1-banner",
+      "version-2.1.1-ilustration",
+      "version-2.1.1-animator",
+      "version-2.1.1-ameIcon",
+      "version-2.1.1-video",
+      "version-2.1.1-youtubePlayer"
+    ],
+    "6 Interações": [
+      "version-2.1.1-button",
+      "version-2.1.1-dropdownButton",
+      "version-2.1.1-segmentedControl",
+      "version-2.1.1-input",
+      "version-2.1.1-currencyInput",
+      "version-2.1.1-optin",
+      "version-2.1.1-datePicker",
+      "version-2.1.1-timePicker",
+      "version-2.1.1-checkItem",
+      "version-2.1.1-information",
+      "version-2.1.1-secureInput",
+      "version-2.1.1-pullToRefresh",
+      "version-2.1.1-map",
+      "version-2.1.1-ads"
+    ],
+    "7 Organização": [
+      "version-2.1.1-divisor",
+      "version-2.1.1-skeleton",
+      "version-2.1.1-springLayout",
+      "version-2.1.1-carousel",
+      "version-2.1.1-scrollView",
+      "version-2.1.1-nav",
+      "version-2.1.1-block"
+    ],
+    "8 Listas": [
+      "version-2.1.1-listView",
+      "version-2.1.1-infiniteScroll"
+    ],
+    "9 Cartões": [
+      "version-2.1.1-card",
+      "version-2.1.1-productCard",
+      "version-2.1.1-flatCard",
+      "version-2.1.1-circle"
+    ],
+    "Notas da Versão": [
+      "version-2.1.1-release-notes"
+    ]
+  }
+}

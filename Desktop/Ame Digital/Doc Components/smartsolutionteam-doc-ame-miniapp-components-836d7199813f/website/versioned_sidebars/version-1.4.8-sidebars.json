@@ -1,0 +1,92 @@
+{
+  "version-1.4.8-docs": {
+    "Apresentação": [
+      "version-1.4.8-introducao",
+      "version-1.4.8-styleResolver"
+    ],
+    "Componentes": [
+      "version-1.4.8-baseComponent",
+      "version-1.4.8-window",
+      {
+        "type": "subcategory",
+        "label": "Estruturais",
+        "ids": [
+          "version-1.4.8-card",
+          "version-1.4.8-flexBox",
+          "version-1.4.8-view",
+          "version-1.4.8-scrollView",
+          "version-1.4.8-skeleton",
+          "version-1.4.8-separator"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Text",
+        "ids": [
+          "version-1.4.8-text",
+          "version-1.4.8-title",
+          "version-1.4.8-priceformat"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Botões",
+        "ids": [
+          "version-1.4.8-button",
+          "version-1.4.8-textLink",
+          "version-1.4.8-dropdownButton"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Formulário",
+        "ids": [
+          "version-1.4.8-input",
+          "version-1.4.8-currencyInput"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Listas",
+        "ids": [
+          "version-1.4.8-listView",
+          "version-1.4.8-infiniteScroll"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Imagens",
+        "ids": [
+          "version-1.4.8-image",
+          "version-1.4.8-imageBackground"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Vídeo",
+        "ids": [
+          "version-1.4.8-video",
+          "version-1.4.8-youtubePlayer"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Interativos",
+        "ids": [
+          "version-1.4.8-touchable",
+          "version-1.4.8-datePicker",
+          "version-1.4.8-timePicker",
+          "version-1.4.8-switch",
+          "version-1.4.8-warning",
+          "version-1.4.8-tabNavigator",
+          "version-1.4.8-carousel",
+          "version-1.4.8-map",
+          "version-1.4.8-animator",
+          "version-1.4.8-activityIndicator",
+          "version-1.4.8-stepper",
+          "version-1.4.8-slider"
+        ]
+      }
+    ]
+  }
+}

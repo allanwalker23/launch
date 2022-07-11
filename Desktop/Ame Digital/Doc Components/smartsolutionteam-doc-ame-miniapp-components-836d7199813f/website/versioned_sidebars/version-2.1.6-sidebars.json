@@ -1,0 +1,98 @@
+{
+  "version-2.1.6-docs": {
+    "1 Começando": [
+      "version-2.1.6-introducao"
+    ],
+    "2 Propriedades": [
+      {
+        "type": "subcategory",
+        "label": "2.1 Básicas",
+        "ids": [
+          "version-2.1.6-common-properties",
+          "version-2.1.6-border",
+          "version-2.1.6-color",
+          "version-2.1.6-flex",
+          "version-2.1.6-gradients",
+          "version-2.1.6-opacity",
+          "version-2.1.6-space",
+          "version-2.1.6-visibility"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.2 De Texto",
+        "ids": [
+          "version-2.1.6-colortext",
+          "version-2.1.6-fontsize",
+          "version-2.1.6-fontheight",
+          "version-2.1.6-fontweight",
+          "version-2.1.6-textAlign"
+        ]
+      }
+    ],
+    "3 Componentes simples": [
+      "version-2.1.6-window",
+      "version-2.1.6-group",
+      "version-2.1.6-view",
+      "version-2.1.6-grid",
+      "version-2.1.6-spacing"
+    ],
+    "4 Textos": [
+      "version-2.1.6-paragraph",
+      "version-2.1.6-header",
+      "version-2.1.6-subtitle",
+      "version-2.1.6-priceformat",
+      "version-2.1.6-bullet"
+    ],
+    "5 Ilustrações": [
+      "version-2.1.6-banner",
+      "version-2.1.6-ilustration",
+      "version-2.1.6-animator",
+      "version-2.1.6-ameIcon",
+      "version-2.1.6-video",
+      "version-2.1.6-youtubePlayer"
+    ],
+    "6 Interações": [
+      "version-2.1.6-button",
+      "version-2.1.6-dropdownButton",
+      "version-2.1.6-segmentedControl",
+      "version-2.1.6-input",
+      "version-2.1.6-currencyInput",
+      "version-2.1.6-optin",
+      "version-2.1.6-datePicker",
+      "version-2.1.6-timePicker",
+      "version-2.1.6-checkItem",
+      "version-2.1.6-information",
+      "version-2.1.6-secureInput",
+      "version-2.1.6-pullToRefresh",
+      "version-2.1.6-map",
+      "version-2.1.6-ads",
+      "version-2.1.6-destination",
+      "version-2.1.6-toggle",
+      "version-2.1.6-textLink"
+    ],
+    "7 Organização": [
+      "version-2.1.6-divisor",
+      "version-2.1.6-skeleton",
+      "version-2.1.6-springLayout",
+      "version-2.1.6-carousel",
+      "version-2.1.6-scrollView",
+      "version-2.1.6-nav",
+      "version-2.1.6-block"
+    ],
+    "8 Listas": [
+      "version-2.1.6-listView",
+      "version-2.1.6-infiniteScroll"
+    ],
+    "9 Cartões": [
+      "version-2.1.6-card",
+      "version-2.1.6-productCard",
+      "version-2.1.6-flatCard",
+      "version-2.1.6-circle",
+      "version-2.1.6-datasheet"
+    ],
+    "Notas da Versão": [
+      "version-2.1.6-release-notes"
+    ]
+  }
+}

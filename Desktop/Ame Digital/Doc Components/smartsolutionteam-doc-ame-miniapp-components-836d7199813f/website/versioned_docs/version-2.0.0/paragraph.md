@@ -1,0 +1,48 @@
+---
+id: version-2.0.0-paragraph
+title: Paragraph
+sidebar_label: 4.1 Paragraph
+original_id: paragraph
+---
+
+Exibe um parágrafo na tela
+
+## Exemplo
+
+![paragraph](assets/old_versions/paragraph.jpg)
+
+## Utilização
+
+```xml
+<Window>
+    <Paragraph size="lg"> ... </Paragraph>
+    <Paragraph size="default"> ... </Paragraph>
+    <Paragraph size="md"> ... </Paragraph>
+    <Paragraph size="sm"> ... </Paragraph>
+    <Paragraph size="xs"> ... </Paragraph>
+</Window>
+```
+
+## Propriedades 
+
+### Size 
+
+Defina a propriedade **size** para definir o tamanho do paragraph: 
+
+* lg: `lg`
+* default: `default`
+* md: `md`
+* sm: `sm`
+* xs: `xs`
+
+### Outras propriedades
+
+Além disso, também aceita todas as propriedades de texto:
+
+* [color](colorText.md)
+* [fontSize](fontSizes.md)
+* [fontHeight](fontHeight.md)
+* [fontWeight](fontWeight.md)
+* [textAlign](textAlign.md)
+
+

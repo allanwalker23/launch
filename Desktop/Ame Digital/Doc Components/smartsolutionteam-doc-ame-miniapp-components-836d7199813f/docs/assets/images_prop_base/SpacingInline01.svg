@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="449" height="168" viewBox="0 0 449 168">
+  <defs>
+    <clipPath id="clip-Spacing_inline">
+      <rect width="449" height="168"/>
+    </clipPath>
+  </defs>
+  <g id="Spacing_inline" data-name="Spacing inline" clip-path="url(#clip-Spacing_inline)">
+    <rect width="449" height="168" fill="#fff"/>
+    <g id="Retângulo_2" data-name="Retângulo 2" transform="translate(131.5 20.5) rotate(90)" fill="#f6dcff" stroke="#ba00ff" stroke-width="1">
+      <rect width="80" height="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" fill="none"/>
+    </g>
+    <g id="Retângulo_3" data-name="Retângulo 3" transform="translate(240 20)" fill="#f6dcff" stroke="#ba00ff" stroke-width="1">
+      <rect width="5" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="4" height="79" fill="none"/>
+    </g>
+    <g id="Retângulo_4" data-name="Retângulo 4" transform="translate(350 20)" fill="#f6dcff" stroke="#ba00ff" stroke-width="1">
+      <rect width="10" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="79" fill="none"/>
+    </g>
+    <text id="None" transform="translate(20 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">None</tspan></text>
+    <text id="Quarck" transform="translate(130 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Quarck</tspan></text>
+    <text id="Nano" transform="translate(240 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Nano</tspan></text>
+    <text id="XXXS" transform="translate(350 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">XXXS</tspan></text>
+  </g>
+</svg>

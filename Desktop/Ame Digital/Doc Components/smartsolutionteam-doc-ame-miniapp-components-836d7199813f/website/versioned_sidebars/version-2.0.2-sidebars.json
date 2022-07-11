@@ -1,0 +1,89 @@
+{
+  "version-2.0.2-docs": {
+    "1 Começando": [
+      "version-2.0.2-introducao"
+    ],
+    "2 Propriedades": [
+      {
+        "type": "subcategory",
+        "label": "2.1 Básicas",
+        "ids": [
+          "version-2.0.2-common-properties",
+          "version-2.0.2-border",
+          "version-2.0.2-color",
+          "version-2.0.2-flex",
+          "version-2.0.2-gradients",
+          "version-2.0.2-opacity",
+          "version-2.0.2-space",
+          "version-2.0.2-visibility"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.2 De Texto",
+        "ids": [
+          "version-2.0.2-colortext",
+          "version-2.0.2-fontsize",
+          "version-2.0.2-fontheight",
+          "version-2.0.2-fontweight",
+          "version-2.0.2-textAlign"
+        ]
+      }
+    ],
+    "3 Componentes simples": [
+      "version-2.0.2-window",
+      "version-2.0.2-group",
+      "version-2.0.2-view",
+      "version-2.0.2-grid",
+      "version-2.0.2-spacing"
+    ],
+    "4 Textos": [
+      "version-2.0.2-paragraph",
+      "version-2.0.2-header",
+      "version-2.0.2-subtitle",
+      "version-2.0.2-priceformat",
+      "version-2.0.2-bullet",
+      "version-2.0.2-textLink"
+    ],
+    "5 Ilustrações": [
+      "version-2.0.2-banner",
+      "version-2.0.2-ilustration",
+      "version-2.0.2-animator",
+      "version-2.0.2-video",
+      "version-2.0.2-youtubePlayer"
+    ],
+    "6 Interações": [
+      "version-2.0.2-button",
+      "version-2.0.2-dropdownButton",
+      "version-2.0.2-segmentedControl",
+      "version-2.0.2-touchable",
+      "version-2.0.2-input",
+      "version-2.0.2-currencyInput",
+      "version-2.0.2-optin",
+      "version-2.0.2-datePicker",
+      "version-2.0.2-timePicker",
+      "version-2.0.2-checkItem",
+      "version-2.0.2-map"
+    ],
+    "7 Organização": [
+      "version-2.0.2-divisor",
+      "version-2.0.2-skeleton",
+      "version-2.0.2-springLayout",
+      "version-2.0.2-carousel",
+      "version-2.0.2-scrollView"
+    ],
+    "8 Listas": [
+      "version-2.0.2-listView",
+      "version-2.0.2-infiniteScroll"
+    ],
+    "9 Cartões": [
+      "version-2.0.2-card",
+      "version-2.0.2-productCard",
+      "version-2.0.2-flatCard",
+      "version-2.0.2-circle"
+    ],
+    "Notas da Versão": [
+      "version-2.0.2-release-notes"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="813" height="168" viewBox="0 0 813 168">
+  <defs>
+    <clipPath id="clip-Border_radius">
+      <rect width="813" height="168"/>
+    </clipPath>
+  </defs>
+  <g id="Border_radius" data-name="Border radius" clip-path="url(#clip-Border_radius)">
+    <rect width="813" height="168" fill="#fff"/>
+    <rect id="Retângulo_1" data-name="Retângulo 1" width="80" height="80" transform="translate(20 20)" fill="#313647"/>
+    <rect id="Retângulo_7" data-name="Retângulo 7" width="80" height="80" rx="5" transform="translate(130 20)" fill="#313647"/>
+    <rect id="Retângulo_12" data-name="Retângulo 12" width="80" height="80" rx="10" transform="translate(240 20)" fill="#313647"/>
+    <rect id="Retângulo_35" data-name="Retângulo 35" width="80" height="80" rx="40" transform="translate(710 25)" fill="#313647"/>
+    <rect id="Retângulo_34" data-name="Retângulo 34" width="110" height="40" rx="20" transform="translate(570 40)" fill="#313647"/>
+    <path id="Retângulo_32" data-name="Retângulo 32" d="M0,0H80a0,0,0,0,1,0,0V70A10,10,0,0,1,70,80H10A10,10,0,0,1,0,70V0A0,0,0,0,1,0,0Z" transform="translate(350 20)" fill="#313647"/>
+    <path id="Retângulo_33" data-name="Retângulo 33" d="M0,0H80a0,0,0,0,1,0,0V70A10,10,0,0,1,70,80H10A10,10,0,0,1,0,70V0A0,0,0,0,1,0,0Z" transform="translate(540 100) rotate(180)" fill="#313647"/>
+    <text id="None" transform="translate(20 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">None</tspan></text>
+    <text id="SM" transform="translate(130 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">SM</tspan></text>
+    <text id="MD" transform="translate(240 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">MD</tspan></text>
+    <text id="Bottom" transform="translate(350 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Bottom</tspan></text>
+    <text id="Inside" transform="translate(460 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Inside</tspan></text>
+    <text id="Medium" transform="translate(570 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="30" y="0">Pill</tspan></text>
+    <text id="Circular" transform="translate(710 146)" fill="#313647" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Circular</tspan></text>
+  </g>
+</svg>

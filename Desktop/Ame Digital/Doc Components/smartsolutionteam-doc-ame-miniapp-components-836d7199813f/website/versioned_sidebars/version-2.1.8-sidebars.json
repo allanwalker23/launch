@@ -1,0 +1,103 @@
+{
+  "version-2.1.8-docs": {
+    "1 Começando": [
+      "version-2.1.8-introducao"
+    ],
+    "2 Propriedades": [
+      {
+        "type": "subcategory",
+        "label": "2.1 Básicas",
+        "ids": [
+          "version-2.1.8-common-properties",
+          "version-2.1.8-border",
+          "version-2.1.8-color",
+          "version-2.1.8-flex",
+          "version-2.1.8-gradients",
+          "version-2.1.8-opacity",
+          "version-2.1.8-space",
+          "version-2.1.8-visibility"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.2 De Texto",
+        "ids": [
+          "version-2.1.8-colortext",
+          "version-2.1.8-fontsize",
+          "version-2.1.8-fontheight",
+          "version-2.1.8-fontweight",
+          "version-2.1.8-textAlign"
+        ]
+      }
+    ],
+    "3 Componentes simples": [
+      "version-2.1.8-window",
+      "version-2.1.8-group",
+      "version-2.1.8-view",
+      "version-2.1.8-grid",
+      "version-2.1.8-spacing"
+    ],
+    "4 Textos": [
+      "version-2.1.8-paragraph",
+      "version-2.1.8-header",
+      "version-2.1.8-subtitle",
+      "version-2.1.8-priceformat",
+      "version-2.1.8-bullet"
+    ],
+    "5 Ilustrações": [
+      "version-2.1.8-banner",
+      "version-2.1.8-ilustration",
+      "version-2.1.8-animator",
+      "version-2.1.8-ameIcon",
+      "version-2.1.8-video",
+      "version-2.1.8-youtubePlayer"
+    ],
+    "6 Interações": [
+      "version-2.1.8-button",
+      "version-2.1.8-dropdownButton",
+      "version-2.1.8-segmentedControl",
+      "version-2.1.8-input",
+      "version-2.1.8-currencyInput",
+      "version-2.1.8-optin",
+      "version-2.1.8-datePicker",
+      "version-2.1.8-timePicker",
+      "version-2.1.8-checkItem",
+      "version-2.1.8-information",
+      "version-2.1.8-secureInput",
+      "version-2.1.8-pullToRefresh",
+      "version-2.1.8-map",
+      "version-2.1.8-ads",
+      "version-2.1.8-destination",
+      "version-2.1.8-accordion",
+      "version-2.1.8-bulletAnimation",
+      "version-2.1.8-modal",
+      "version-2.1.8-textLink",
+      "version-2.1.8-toggle"
+    ],
+    "7 Organização": [
+      "version-2.1.8-divisor",
+      "version-2.1.8-skeleton",
+      "version-2.1.8-springLayout",
+      "version-2.1.8-carousel",
+      "version-2.1.8-scrollView",
+      "version-2.1.8-nav",
+      "version-2.1.8-block",
+      "version-2.1.8-steps",
+      "version-2.1.8-boxshadow"
+    ],
+    "8 Listas": [
+      "version-2.1.8-listView",
+      "version-2.1.8-infiniteScroll"
+    ],
+    "9 Cartões": [
+      "version-2.1.8-card",
+      "version-2.1.8-productCard",
+      "version-2.1.8-flatCard",
+      "version-2.1.8-circle",
+      "version-2.1.8-datasheet"
+    ],
+    "Notas da Versão": [
+      "version-2.1.8-release-notes"
+    ]
+  }
+}

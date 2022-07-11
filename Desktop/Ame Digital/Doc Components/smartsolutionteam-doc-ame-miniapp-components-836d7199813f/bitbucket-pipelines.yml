@@ -1,0 +1,24 @@
+image: node:14.16.1
+
+definitions:
+  steps:
+    - step: &deployDoc
+        name: Deploy Documentação
+        caches:
+          - node
+        script:
+          - cd website
+          - yarn install
+          - yarn run build
+          - echo "Build da doc feito com sucesso"
+          - apt-get update && apt-get install -y python-dev
+          - curl -O https://bootstrap.pypa.io/pip/2.7/get-pip.py
+          - python get-pip.py
+          - pip install awscli
+          - aws s3 --region "us-east-1" sync build/ame-store s3://ame-miniapp-components-documentation --cache-control "public, max-age=0" --delete --acl public-read
+          - echo "Doc publicada"
+
+pipelines:
+  branches:
+    master:
+      - step: *deployDoc
